@@ -1,0 +1,30 @@
+[0.147s] Invoking command in '/home/sunrise/robot/robot_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/sunrise/robot/robot_ws/install/openslam_gmapping:/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/slam_gmapping:/home/sunrise/robot/robot_ws/install/my_robot_description:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/slam_gmapping -- -j8 -l8
+[0.421s] [100%] Built target slam_gmapping
+[0.421s] [100%] Built target transform
+[0.470s] Invoked command in '/home/sunrise/robot/robot_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/robot/robot_ws/install/openslam_gmapping:/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/slam_gmapping:/home/sunrise/robot/robot_ws/install/my_robot_description:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/slam_gmapping -- -j8 -l8
+[0.478s] Invoking command in '/home/sunrise/robot/robot_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/sunrise/robot/robot_ws/install/openslam_gmapping:/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/slam_gmapping:/home/sunrise/robot/robot_ws/install/my_robot_description:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/slam_gmapping
+[0.512s] -- Install configuration: ""
+[0.513s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[0.518s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/lib/slam_gmapping/transform
+[0.519s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/launch
+[0.520s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_x3_launch.py
+[0.521s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_4ros_gmapping.launch.py
+[0.522s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_4ros_launch.py
+[0.523s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/launch/test_gmapping.launch.py
+[0.531s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_x3_gmapping.launch.py
+[0.531s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[0.532s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[0.532s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[0.533s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[0.544s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[0.545s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[0.546s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[0.547s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[0.548s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[0.551s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[0.552s] -- Installing: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[0.555s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[0.561s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[0.563s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[0.566s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[0.568s] Invoked command in '/home/sunrise/robot/robot_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/robot/robot_ws/install/openslam_gmapping:/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/slam_gmapping:/home/sunrise/robot/robot_ws/install/my_robot_description:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/slam_gmapping

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <!--
+        STM32开发板宏定义（长方体）
+        参数说明：
+          length  : 前后长度 (m)       →  10cm
+          width   : 左右宽度 (m)       →  10cm
+          height  : 上下高度 (m)       →  3cm
+          z_off   : 离地高度 (m)       →  6cm
+          mass    : 开发板质量 (kg)    →  0.2kg
+          material: 颜色               →  Grey(灰色)
+          prefix  : 名称前缀（用于区分不同开发板）
+    -->
+
+    <xacro:macro name="board_macro" params="length width height z_off mass material prefix">
+    
+        <link name="board_${prefix}">
+            <!-- 可视化 -->
+            <visual>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>
+                <box size="${length} ${width} ${height}"/>
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+        
+             <!-- 碰撞：仿真必须有，和可视化尺寸一样 -->
+            <collision>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>
+                <box size="${length} ${width} ${height}"/>
+                </geometry>
+            </collision>
+
+            <!-- 惯性：仿真物理特性 -->
+            <inertial>
+                <mass value="${mass}"/>  
+                <origin xyz="0 0 ${z_off}"/>
+                <inertia 
+                    
+                    ixx="${(mass/12)*(width*width + height*height)}"
+                    ixy="0.0"
+                    ixz="0.0"
+                    iyy="${(mass/12)*(length*length + height*height)}"
+                    iyz="0.0"
+                    izz="${(mass/12)*(length*length + width*width)}"
+                /><!-- 长方体转动惯量计算公式 -->       
+            </inertial>
+        </link>
+    </xacro:macro>
+
+     <!-- 板关节宏定义：支持prefix、自定义父连杆和位置 -->
+    <xacro:macro name="board_joint_macro" params="parent xyz prefix">
+    <joint name="base_to_${prefix}_joint" type="fixed">
+        <parent link="${parent}" />
+        <child link="board_${prefix}" />
+        <origin xyz="${xyz}" rpy="0 0 0" />
+    </joint>
+    </xacro:macro>
+
+</robot>

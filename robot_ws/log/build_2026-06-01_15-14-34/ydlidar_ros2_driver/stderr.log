@@ -1,0 +1,14 @@
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:142:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScanData[m[K’ was not declared in this scope; did you mean ‘[01m[KLaserScan[m[K’?
+  142 |     [01;31m[KLaserScanData[m[K scan_data;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[KLaserScan[m[K
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CYdLidar[m[K’ has no member named ‘[01m[KgrabScanData[m[K’
+  149 |         if (laser.[01;31m[KgrabScanData[m[K(scan_data))
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+  149 |         if (laser.grabScanData([01;31m[Kscan_data[m[K))
+      |                                [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76：CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/ydlidar_ros2_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

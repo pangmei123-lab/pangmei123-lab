@@ -1,0 +1,97 @@
+# ============================================================
+# AMCL 定位参数配置文件
+# 包名：slam_gmapping
+# 用途：加载已有地图，用粒子滤波进行全局定位
+# 激光雷达：YDLIDAR, 360°, 10Hz, range 0.12~8.0m
+# 底盘：四轮麦轮，里程计 50Hz
+# ============================================================
+
+/amcl:
+  ros__parameters:
+
+    # ---------- 滤波器模式 ----------
+    use_sim_time: false
+    set_initial_pose: false          # 由 rviz 2D Pose Estimate 手动设置
+    always_reset_initial_pose: false # 每次 /initialpose 话题更新时是否重置
+    first_pose_only: false
+
+    # ---------- 帧名称（必须与你的 TF 树一致）----------
+    odom_frame_id: "odom"
+    base_frame_id: "base_link"
+    global_frame_id: "map"
+
+    # ---------- 输入话题 ----------
+    scan_topic_name: /scan
+
+    # ---------- 激光模型 ----------
+    # likelihood_field 比 beam 更鲁棒，适合真实环境
+    laser_model_type: "likelihood_field"
+
+    # 似然场参数
+    laser_likelihood_max_dist: 2.0    # 似然场最大计算距离 (m)
+    laser_max_beams: 60               # 每次更新用的激光束数量（平衡精度与性能）
+    laser_min_range: 0.12             # 最小有效距离（与雷达配置一致）
+    laser_max_range: 8.0              # 最大有效距离（与雷达配置一致）
+    laser_z_hit: 0.95                 # 击中概率权重
+    laser_z_rand: 0.05                # 随机噪声权重
+    laser_z_max: 0.05                 # 最大距离权重
+    laser_z_short: 0.05               # 短距离权重
+    laser_sigma_hit: 0.2              # 击中高斯标准差
+
+    # ---------- 粒子滤波器 ----------
+    min_particles: 500                # 最小粒子数
+    max_particles: 2000               # 最大粒子数
+
+    # KLD 自适应采样
+    pf_err: 0.05                      # KLD 误差
+    pf_z: 0.99                        # KLD 置信度 (1-p)
+
+    # 重采样
+    resample_interval: 2              # 每隔几次更新重采样
+    recovery_alpha_slow: 0.001        # 长期平均权重衰减
+    recovery_alpha_fast: 0.1          # 短期平均权重衰减
+    selective_resampling: false       # 选择性重采样
+
+    # ---------- 更新触发条件 ----------
+    update_min_d: 0.2                 # 平移 > 0.2m 才更新
+    update_min_a: 0.2                 # 旋转 > 0.2rad 才更新
+
+    # ---------- 初始位姿 ----------
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+
+    # ---------- 里程计运动模型噪声 ----------
+    # 值越大 = 模型越不信任里程计（更依赖激光匹配）
+    # 麦轮可能有侧滑，建议 alpha3, alpha4 稍大
+    alpha1: 0.2    # 平移噪声（由平移引起）旋转部分
+    alpha2: 0.2    # 平移噪声（由旋转引起）旋转部分
+    alpha3: 0.4    # 平移噪声（由平移引起）平移部分
+    alpha4: 0.4    # 平移噪声（由旋转引起）平移部分
+
+    # ---------- TF 发布 ----------
+    transform_tolerance: 0.5          # TF 变换容忍时间 (s)
+    tf_broadcast: true                # 是否广播 map->odom 变换
+
+    # ---------- 初始协方差 ----------
+    # 用于 /initialpose 还没收到时的默认不确定性
+    initial_cov_xx: 0.25
+    initial_cov_yy: 0.25
+    initial_cov_aa: 0.0685            # (π/12)^2 ≈ 0.0685
+
+    # ---------- QOS ----------
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+      /tf:
+        publisher:
+          depth: 100
+          durability: volatile
+          history: keep_last
+          reliability: reliable

@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.002657] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.003814] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.005509] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.005997] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.006465] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.006797] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.098459] (-) TimerEvent: {}
+[0.199329] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.401348] (-) TimerEvent: {}
+[0.502503] (-) TimerEvent: {}
+[0.603536] (-) TimerEvent: {}
+[0.704626] (-) TimerEvent: {}
+[0.805693] (-) TimerEvent: {}
+[0.906963] (-) TimerEvent: {}
+[1.008169] (-) TimerEvent: {}
+[1.109164] (-) TimerEvent: {}
+[1.210118] (-) TimerEvent: {}
+[1.311061] (-) TimerEvent: {}
+[1.411999] (-) TimerEvent: {}
+[1.512914] (-) TimerEvent: {}
+[1.613853] (-) TimerEvent: {}
+[1.714777] (-) TimerEvent: {}
+[1.815809] (-) TimerEvent: {}
+[1.916793] (-) TimerEvent: {}
+[2.017672] (-) TimerEvent: {}
+[2.118570] (-) TimerEvent: {}
+[2.219535] (-) TimerEvent: {}
+[2.320986] (-) TimerEvent: {}
+[2.425788] (-) TimerEvent: {}
+[2.526945] (-) TimerEvent: {}
+[2.628230] (-) TimerEvent: {}
+[2.729238] (-) TimerEvent: {}
+[2.830347] (-) TimerEvent: {}
+[2.931324] (-) TimerEvent: {}
+[3.032340] (-) TimerEvent: {}
+[3.133424] (-) TimerEvent: {}
+[3.234490] (-) TimerEvent: {}
+[3.337082] (-) TimerEvent: {}
+[3.440167] (-) TimerEvent: {}
+[3.545481] (-) TimerEvent: {}
+[3.646781] (-) TimerEvent: {}
+[3.747785] (-) TimerEvent: {}
+[3.848749] (-) TimerEvent: {}
+[3.949693] (-) TimerEvent: {}
+[4.050676] (-) TimerEvent: {}
+[4.153450] (-) TimerEvent: {}
+[4.254594] (-) TimerEvent: {}
+[4.355881] (-) TimerEvent: {}
+[4.456996] (-) TimerEvent: {}
+[4.558119] (-) TimerEvent: {}
+[4.659335] (-) TimerEvent: {}
+[4.760237] (-) TimerEvent: {}
+[4.861173] (-) TimerEvent: {}
+[4.962051] (-) TimerEvent: {}
+[5.063032] (-) TimerEvent: {}
+[5.164325] (-) TimerEvent: {}
+[5.265462] (-) TimerEvent: {}
+[5.366417] (-) TimerEvent: {}
+[5.467486] (-) TimerEvent: {}
+[5.568502] (-) TimerEvent: {}
+[5.669798] (-) TimerEvent: {}
+[5.771016] (-) TimerEvent: {}
+[5.872275] (-) TimerEvent: {}
+[5.973417] (-) TimerEvent: {}
+[6.074572] (-) TimerEvent: {}
+[6.175690] (-) TimerEvent: {}
+[6.276703] (-) TimerEvent: {}
+[6.377736] (-) TimerEvent: {}
+[6.478729] (-) TimerEvent: {}
+[6.580819] (-) TimerEvent: {}
+[6.681909] (-) TimerEvent: {}
+[6.782925] (-) TimerEvent: {}
+[6.883919] (-) TimerEvent: {}
+[6.984909] (-) TimerEvent: {}
+[7.086459] (-) TimerEvent: {}
+[7.187638] (-) TimerEvent: {}
+[7.288750] (-) TimerEvent: {}
+[7.390097] (-) TimerEvent: {}
+[7.491133] (-) TimerEvent: {}
+[7.556211] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/sunrise/robot/robot_ws/build/robot_control/build'], 'cwd': '/home/sunrise/robot/robot_ws/build/robot_control', 'env': {'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sunrise', 'OLDPWD': '/home/sunrise/robot', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/bin:/bin:/opt/ros/humble/bin', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/sunrise/robot/robot_ws/build/robot_control', 'PYTHONPATH': '/home/sunrise/robot/robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.595404] (-) TimerEvent: {}
+[7.696647] (-) TimerEvent: {}
+[7.797709] (-) TimerEvent: {}
+[7.898613] (-) TimerEvent: {}
+[7.999502] (-) TimerEvent: {}
+[8.100403] (-) TimerEvent: {}
+[8.201330] (-) TimerEvent: {}
+[8.302251] (-) TimerEvent: {}
+[8.403126] (-) TimerEvent: {}
+[8.504203] (-) TimerEvent: {}
+[8.605941] (-) TimerEvent: {}
+[8.707219] (-) TimerEvent: {}
+[8.808357] (-) TimerEvent: {}
+[8.909498] (-) TimerEvent: {}
+[9.010530] (-) TimerEvent: {}
+[9.111484] (-) TimerEvent: {}
+[9.212448] (-) TimerEvent: {}
+[9.313429] (-) TimerEvent: {}
+[9.414436] (-) TimerEvent: {}
+[9.515492] (-) TimerEvent: {}
+[9.616526] (-) TimerEvent: {}
+[9.717400] (-) TimerEvent: {}
+[9.818278] (-) TimerEvent: {}
+[9.920991] (-) TimerEvent: {}
+[10.022177] (-) TimerEvent: {}
+[10.126089] (-) TimerEvent: {}
+[10.227094] (-) TimerEvent: {}
+[10.305260] (robot_control) StdoutLine: {'line': b'running develop\n'}
+[10.327467] (-) TimerEvent: {}
+[10.428748] (-) TimerEvent: {}
+[10.529960] (-) TimerEvent: {}
+[10.631119] (-) TimerEvent: {}
+[10.732015] (-) TimerEvent: {}
+[10.832967] (-) TimerEvent: {}
+[10.933831] (-) TimerEvent: {}
+[11.034800] (-) TimerEvent: {}
+[11.135801] (-) TimerEvent: {}
+[11.236768] (-) TimerEvent: {}
+[11.338143] (-) TimerEvent: {}
+[11.439295] (-) TimerEvent: {}
+[11.540344] (-) TimerEvent: {}
+[11.641336] (-) TimerEvent: {}
+[11.742299] (-) TimerEvent: {}
+[11.843178] (-) TimerEvent: {}
+[11.944040] (-) TimerEvent: {}
+[12.044919] (-) TimerEvent: {}
+[12.145857] (-) TimerEvent: {}
+[12.246885] (-) TimerEvent: {}
+[12.347771] (-) TimerEvent: {}
+[12.448679] (-) TimerEvent: {}
+[12.549651] (-) TimerEvent: {}
+[12.650632] (-) TimerEvent: {}
+[12.751664] (-) TimerEvent: {}
+[12.846250] (robot_control) CommandEnded: {'returncode': 0}
+[12.855899] (-) TimerEvent: {}
+[12.856705] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_control', 'build', '--build-base', '/home/sunrise/robot/robot_ws/build/robot_control/build', 'install', '--record', '/home/sunrise/robot/robot_ws/build/robot_control/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/sunrise/robot/robot_ws/src/robot_control', 'env': {'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sunrise', 'OLDPWD': '/home/sunrise/robot', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/bin:/bin:/opt/ros/humble/bin', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/sunrise/robot/robot_ws/build/robot_control', 'PYTHONPATH': '/home/sunrise/robot/robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[12.956165] (-) TimerEvent: {}
+[13.058416] (-) TimerEvent: {}
+[13.161293] (-) TimerEvent: {}
+[13.262329] (-) TimerEvent: {}
+[13.363400] (-) TimerEvent: {}
+[13.464466] (-) TimerEvent: {}
+[13.565568] (-) TimerEvent: {}
+[13.666534] (-) TimerEvent: {}
+[13.767587] (-) TimerEvent: {}
+[13.868529] (-) TimerEvent: {}
+[13.969463] (-) TimerEvent: {}
+[14.070415] (-) TimerEvent: {}
+[14.171734] (-) TimerEvent: {}
+[14.272843] (-) TimerEvent: {}
+[14.373944] (-) TimerEvent: {}
+[14.477944] (-) TimerEvent: {}
+[14.578991] (-) TimerEvent: {}
+[14.680018] (-) TimerEvent: {}
+[14.782616] (-) TimerEvent: {}
+[14.883800] (-) TimerEvent: {}
+[14.985028] (-) TimerEvent: {}
+[15.086060] (-) TimerEvent: {}
+[15.187086] (-) TimerEvent: {}
+[15.288107] (-) TimerEvent: {}
+[15.389207] (-) TimerEvent: {}
+[15.490491] (-) TimerEvent: {}
+[15.591801] (-) TimerEvent: {}
+[15.620237] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[15.651776] (robot_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[15.652868] (robot_control) StdoutLine: {'line': b'running build\n'}
+[15.653676] (robot_control) StdoutLine: {'line': b'running build_py\n'}
+[15.659391] (robot_control) StdoutLine: {'line': b'copying robot_control/serial_driver.py -> /home/sunrise/robot/robot_ws/build/robot_control/build/lib/robot_control\n'}
+[15.660382] (robot_control) StdoutLine: {'line': b'copying robot_control/simple_navigator.py -> /home/sunrise/robot/robot_ws/build/robot_control/build/lib/robot_control\n'}
+[15.661124] (robot_control) StdoutLine: {'line': b'running install\n'}
+[15.664197] (robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[15.669867] (robot_control) StdoutLine: {'line': b'creating /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control\n'}
+[15.685735] (robot_control) StdoutLine: {'line': b'byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/lifecycle_activator.py to lifecycle_activator.cpython-310.pyc\n'}
+[15.692073] (-) TimerEvent: {}
+[15.694050] (robot_control) StdoutLine: {'line': b'byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/serial_driver.py to serial_driver.cpython-310.pyc\n'}
+[15.708176] (robot_control) StdoutLine: {'line': b'byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/odom_publisher.py to odom_publisher.cpython-310.pyc\n'}
+[15.715839] (robot_control) StdoutLine: {'line': b'byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/simple_navigator.py to simple_navigator.cpython-310.pyc\n'}
+[15.723077] (robot_control) StdoutLine: {'line': b'byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/__init__.py to __init__.cpython-310.pyc\n'}
+[15.724736] (robot_control) StdoutLine: {'line': b'running install_data\n'}
+[15.726147] (robot_control) StdoutLine: {'line': b'copying resource/robot_control -> /home/sunrise/robot/robot_ws/install/robot_control/share/ament_index/resource_index/packages\n'}
+[15.727248] (robot_control) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/robot/robot_ws/install/robot_control/share/robot_control\n'}
+[15.728176] (robot_control) StdoutLine: {'line': b'copying launch/control.launch.py -> /home/sunrise/robot/robot_ws/install/robot_control/share/robot_control/launch\n'}
+[15.734405] (robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.742998] (robot_control) StdoutLine: {'line': b'Copying ../../build/robot_control/robot_control.egg-info to /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info\n'}
+[15.753239] (robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[15.792912] (-) TimerEvent: {}
+[15.893904] (-) TimerEvent: {}
+[15.930298] (robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/robot/robot_ws/build/robot_control/install.log'\n"}
+[15.994116] (-) TimerEvent: {}
+[16.095053] (-) TimerEvent: {}
+[16.196057] (-) TimerEvent: {}
+[16.256646] (robot_control) CommandEnded: {'returncode': 0}
+[16.296298] (-) TimerEvent: {}
+[16.392614] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[16.400111] (-) TimerEvent: {}
+[16.400608] (-) EventReactorShutdown: {}

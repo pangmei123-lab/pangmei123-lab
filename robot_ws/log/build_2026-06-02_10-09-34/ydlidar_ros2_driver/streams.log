@@ -1,0 +1,45 @@
+[0.065s] Invoking command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[1.608s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[1.775s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[1.777s] [ 75%] Built target ydlidar_ros2_driver_node
+[52.636s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[56.108s] [100%] Built target ydlidar_ros2_driver_client
+[56.168s] Invoked command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[56.236s] Invoking command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver
+[56.272s] -- Install configuration: ""
+[56.276s] -- Execute custom install script
+[56.278s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[56.279s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[56.284s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/4ros_ydlidar_launch.py
+[56.284s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch.cpython-36.pyc
+[56.285s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch_view.cpython-36.pyc
+[56.285s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/test_gmapping_launch.py
+[56.286s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/view_ydlidar_launch.py
+[56.286s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/x3_ydlidar_launch.py
+[56.287s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[56.287s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_4ros_view_launch.py
+[56.288s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[56.288s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_raw_launch.py
+[56.289s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_x3_view_launch.py
+[56.290s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[56.290s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_4ros.yaml
+[56.291s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_x3.yaml
+[56.292s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[56.293s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/test_gmapping.rviz
+[56.294s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[56.295s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[56.295s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[56.296s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[56.297s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[56.298s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[56.299s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[56.299s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[56.300s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[56.301s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[56.302s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[56.302s] -- Symlinking: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[56.342s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[56.343s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[56.344s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[56.345s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[56.358s] Invoked command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver

@@ -1,0 +1,30 @@
+[0.157s] Invoking command in '/home/sunrise/robot/robot_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/my_robot_description -- -j8 -l8
+[2.963s] Invoked command in '/home/sunrise/robot/robot_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/my_robot_description -- -j8 -l8
+[3.007s] Invoking command in '/home/sunrise/robot/robot_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/my_robot_description
+[3.055s] -- Install configuration: ""
+[3.057s] -- Execute custom install script
+[3.065s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/urdf/macros/base_macro.xacro
+[3.068s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/urdf/macros/board_macro.xacro
+[3.069s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/urdf/macros/copper_pillar_macro.xacro
+[3.071s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/urdf/macros/laser_sensor_macro.xacro
+[3.080s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/urdf/macros/materials_macro.xacro
+[3.083s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/urdf/macros/wheel_macro.xacro
+[3.085s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/urdf/robot_base.urdf.xacro
+[3.090s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[3.099s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/rviz/display.rviz
+[3.145s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[3.190s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[3.190s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[3.194s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[3.197s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[3.203s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[3.211s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[3.213s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[3.214s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[3.215s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[3.216s] -- Symlinking: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[3.285s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[3.289s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[3.290s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[3.291s] -- Up-to-date symlink: /home/sunrise/robot/robot_ws/install/my_robot_description/share/my_robot_description/package.xml
+[3.421s] Invoked command in '/home/sunrise/robot/robot_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/my_robot_description

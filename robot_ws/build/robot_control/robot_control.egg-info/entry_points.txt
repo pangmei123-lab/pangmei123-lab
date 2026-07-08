@@ -1,0 +1,6 @@
+[console_scripts]
+lifecycle_activator = robot_control.lifecycle_activator:main
+odom_publisher = robot_control.odom_publisher:main
+serial_driver = robot_control.serial_driver:main
+simple_navigator = robot_control.simple_navigator:main
+

@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[ 50%] Built target ydlidar_ros2_driver_client
+[ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:153:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CYdLidar[m[K’ has no member named ‘[01m[KdoProcess[m[K’
+  153 |         if (laser.[01;31m[KdoProcess[m[K(scan))
+      |                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:157:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct LaserScan[m[K’ has no member named ‘[01m[Kmin_angle[m[K’
+  157 |             scan_msg.angle_min = (float)(scan.[01;31m[Kmin_angle[m[K * M_PI / 180.0f);
+      |                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:158:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct LaserScan[m[K’ has no member named ‘[01m[Kmax_angle[m[K’
+  158 |             scan_msg.angle_max = (float)(scan.[01;31m[Kmax_angle[m[K * M_PI / 180.0f);
+      |                                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:159:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct LaserScan[m[K’ has no member named ‘[01m[Kangle_increment[m[K’
+  159 |             scan_msg.angle_increment = (float)(scan.[01;31m[Kangle_increment[m[K * M_PI / 180.0f);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:160:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct LaserScan[m[K’ has no member named ‘[01m[Ktime_increment[m[K’
+  160 |             scan_msg.time_increment = (float)(scan.[01;31m[Ktime_increment[m[K / 1000000.0f);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:161:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct LaserScan[m[K’ has no member named ‘[01m[Kscan_time[m[K’
+  161 |             scan_msg.scan_time = (float)(scan.[01;31m[Kscan_time[m[K / 1000.0f);
+      |                                               [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76：CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/ydlidar_ros2_driver_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

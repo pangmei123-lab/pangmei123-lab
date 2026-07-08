@@ -1,0 +1,1 @@
+/home/sunrise/robot/robot_ws/src/slam_gmapping/launch/gmapping_4ros_launch.py

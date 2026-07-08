@@ -1,0 +1,79 @@
+[0.165s] Invoking command in '/home/sunrise/robot/robot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/openslam_gmapping -- -j8 -l8
+[2.970s] [ 13%] Built target sensor_base
+[2.972s] [ 27%] Built target utils
+[2.975s] [ 40%] Built target sensor_range
+[2.978s] [ 54%] Built target sensor_odometry
+[2.979s] [ 77%] Built target scanmatcher
+[2.981s] [100%] Built target gridfastslam
+[3.056s] Invoked command in '/home/sunrise/robot/robot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/openslam_gmapping -- -j8 -l8
+[3.065s] Invoking command in '/home/sunrise/robot/robot_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/openslam_gmapping
+[3.128s] -- Install configuration: ""
+[3.132s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.134s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.137s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include/
+[3.144s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping
+[3.146s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/gridfastslam
+[3.149s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[3.151s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[3.153s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[3.155s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/scanmatcher
+[3.164s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[3.165s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[3.166s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[3.167s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/utils
+[3.168s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[3.170s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[3.172s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[3.177s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[3.178s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[3.179s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[3.183s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor
+[3.192s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[3.194s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[3.197s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[3.200s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[3.206s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[3.208s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[3.209s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[3.210s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[3.211s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[3.213s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/particlefilter
+[3.215s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[3.219s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/grid
+[3.220s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[3.221s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[3.225s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[3.226s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[3.227s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/log
+[3.228s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[3.229s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[3.232s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[3.233s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[3.234s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[3.236s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[3.238s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[3.239s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[3.240s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[3.241s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[3.243s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[3.250s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[3.250s] -- Installing: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[3.252s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[3.261s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[3.263s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.265s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[3.268s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[3.269s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[3.270s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[3.271s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[3.277s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.281s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.285s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/lib/libsensor_base.a
+[3.288s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.297s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.299s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[3.301s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/lib/libsensor_range.a
+[3.303s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/lib/libutils.a
+[3.304s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.305s] -- Up-to-date: /home/sunrise/robot/robot_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.312s] Invoked command in '/home/sunrise/robot/robot_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/robot/robot_ws/build/openslam_gmapping

@@ -1,0 +1,16 @@
+[6.517s] Invoking command in '/home/sunrise/robot/robot_ws/src/robot_control': PYTHONPATH=/home/sunrise/robot/robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/sunrise/robot/robot_ws/build/robot_control/build install --record /home/sunrise/robot/robot_ws/build/robot_control/install.log --single-version-externally-managed install_data
+[8.909s] running egg_info
+[8.941s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[8.942s] running build
+[8.943s] running build_py
+[8.944s] copying robot_control/lifecycle_activator.py -> /home/sunrise/robot/robot_ws/build/robot_control/build/lib/robot_control
+[8.946s] running install
+[8.952s] running install_lib
+[8.961s] byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/lifecycle_activator.py to lifecycle_activator.cpython-310.pyc
+[8.969s] running install_data
+[8.970s] running install_egg_info
+[8.986s] removing '/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[8.989s] Copying ../../build/robot_control/robot_control.egg-info to /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+[8.999s] running install_scripts
+[9.141s] writing list of installed files to '/home/sunrise/robot/robot_ws/build/robot_control/install.log'
+[9.425s] Invoked command in '/home/sunrise/robot/robot_ws/src/robot_control' returned '0': PYTHONPATH=/home/sunrise/robot/robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/sunrise/robot/robot_ws/build/robot_control/build install --record /home/sunrise/robot/robot_ws/build/robot_control/install.log --single-version-externally-managed install_data

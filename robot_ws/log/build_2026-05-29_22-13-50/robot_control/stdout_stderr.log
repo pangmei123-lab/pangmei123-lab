@@ -1,0 +1,14 @@
+running develop
+running egg_info
+creating robot_control.egg-info
+writing manifest file 'robot_control.egg-info/SOURCES.txt'
+writing manifest file 'robot_control.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /home/sunrise/robot/robot_ws/install/robot_control/share/ament_index
+creating /home/sunrise/robot/robot_ws/install/robot_control/share/ament_index/resource_index
+creating /home/sunrise/robot/robot_ws/install/robot_control/share/ament_index/resource_index/packages
+symbolically linking /home/sunrise/robot/robot_ws/build/robot_control/resource/robot_control -> /home/sunrise/robot/robot_ws/install/robot_control/share/ament_index/resource_index/packages
+symbolically linking /home/sunrise/robot/robot_ws/build/robot_control/package.xml -> /home/sunrise/robot/robot_ws/install/robot_control/share/robot_control
+creating /home/sunrise/robot/robot_ws/install/robot_control/share/robot_control/launch
+symbolically linking /home/sunrise/robot/robot_ws/build/robot_control/launch/control.launch.py -> /home/sunrise/robot/robot_ws/install/robot_control/share/robot_control/launch

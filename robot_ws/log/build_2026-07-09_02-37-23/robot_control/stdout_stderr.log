@@ -1,0 +1,14 @@
+running egg_info
+writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_control/lifecycle_activator.py -> /home/sunrise/robot/robot_ws/build/robot_control/build/lib/robot_control
+running install
+running install_lib
+byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/lifecycle_activator.py to lifecycle_activator.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_control/robot_control.egg-info to /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sunrise/robot/robot_ws/build/robot_control/install.log'

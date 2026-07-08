@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"> 
+
+<!-- 白色 -->
+  <material name="White">
+    <color rgba="1.0 1.0 1.0 0.8"/>
+  </material>
+
+  <!-- 黑色 -->
+  <material name="Black">
+    <color rgba="0.0 0.0 0.0 0.8"/>
+  </material>
+
+  <!-- 红色 -->
+  <material name="Red">
+    <color rgba="1.0 0.0 0.0 0.8"/>
+  </material>
+
+  <!-- 蓝色 -->
+  <material name="Blue">
+    <color rgba="0.1 0.3 0.8 0.8"/>
+  </material>
+
+  
+  <!-- 黄色 -->
+  <material name="Yellow">
+    <color rgba="1.0 1.0 0.0 0.8"/>
+  </material>
+  
+  <!-- 绿色 -->
+  <material name="Green">
+    <color rgba="0.0 1.0 0.0 0.8"/>
+  </material>
+
+  <!-- 橙色 -->
+  <material name="Orange">
+    <color rgba="1.0 0.5 0.0 0.8"/>
+  </material>
+
+  <!-- 紫色 -->
+  <material name="Purple">
+    <color rgba="0.5 0.0 1.0 0.8"/>
+  </material>
+  
+  <!-- 粉色 -->
+  <material name="Pink">
+    <color rgba="1.0 0.0 1.0 0.8"/>
+  </material>
+
+  <!-- 灰色 -->
+  <material name="Grey">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+
+  <!-- 金色 -->
+  <material name="Gold">
+    <color rgba="1.0 0.84 0.0 0.8"/>
+  </material>
+
+</robot>
+ 
+    

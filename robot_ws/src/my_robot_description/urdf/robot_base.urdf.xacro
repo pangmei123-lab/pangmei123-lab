@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/xacro">
+
+    <!-- 包含材料 + 底盘宏 +  轮子宏 -->
+  <xacro:include filename="macros/materials_macro.xacro"/>
+  <xacro:include filename="macros/base_macro.xacro"/>
+  <xacro:include filename="macros/wheel_macro.xacro"/>
+  <xacro:include filename="macros/board_macro.xacro"/>  
+  <xacro:include filename="macros/copper_pillar_macro.xacro"/>
+  <xacro:include filename="macros/laser_sensor_macro.xacro"/>
+
+    <!--
+    调用底盘宏，填入你的尺寸：
+    length=0.13   长13cm
+    width=0.20    宽20cm
+    height=0.01   高1cm
+    z_off=0.05   离地5cm（底盘离地高度=底盘高度/2）
+    mass=0.15     质量0.6kg
+    material=Blue 蓝色
+    -->
+    <!-- 使用底盘宏，传入参数 -->
+    <xacro:base_link_macro 
+        length="0.13" 
+        width="0.20" 
+        height="0.01"
+        z_off="0.05" 
+        mass="0.6"
+        material="Blue"
+        prefix="base"/>
+
+
+    <!-- 
+    调用top宏，填入你的尺寸：
+    length=0.13   长13cm
+    width=0.20    宽20cm
+    height=0.01   高1cm
+    z_off=0.011    离地11cm（底盘离地高度=底盘高度/2）
+    mass=0.15     质量0.15kg
+    material=Blue 蓝色
+    prefix=top  顶部（top）
+     -->
+    <!-- 使用底盘宏，传入参数 -->
+    <xacro:base_link_macro 
+        length="0.13"   
+        width="0.20"    
+        height="0.01"  
+        z_off="0.11"    
+        mass="0.15"    
+        material="Blue"
+        prefix="top"/>
+
+    <!-- 底盘和顶部通过固定关节连接 -->
+    <xacro:base_joint_macro parent="base_link" xyz="0 0 0.0" prefix="top"/>
+
+
+    <!--
+    调用轮子宏，填入你的尺寸：
+    radius=0.025   半径2.5cm
+    length=0.025   厚度2.5cm   
+   
+    mass=0.05      质量0.05kg
+    material=Black 黑色
+    prefix=lf  左前轮（left front）
+    prefix=lb  左后轮（left back）
+    prefix=rf  右前轮（right front）
+    prefix=rb  右后轮（right back）
+    -->
+    <!-- 使用轮子宏，传入参数 -->
+    <xacro:wheel_macro 
+      radius="0.025" 
+      length="0.025" 
+       
+      mass="0.05"
+      material="Black"
+      prefix="lf"/>
+
+    <xacro:wheel_macro 
+      radius="0.025" 
+      length="0.025" 
+      
+      mass="0.05"
+      material="Black"
+      prefix="lb"/>
+
+    <xacro:wheel_macro 
+      radius="0.025" 
+      length="0.025" 
+      
+      mass="0.05"
+      material="Black"
+      prefix="rf"/>
+
+    <xacro:wheel_macro 
+      radius="0.025" 
+      length="0.025" 
+      
+      mass="0.05"
+      material="Black"
+      prefix="rb"/>
+
+    <!-- ============================== -->
+    <!-- 左前轮 -->
+    <xacro:wheel_joint_macro prefix="lf" parent="base_link" xyz=" 0.065  0.10  0.025"/>
+    <!-- 左后轮 -->
+    <xacro:wheel_joint_macro prefix="lb" parent="base_link" xyz="-0.065  0.10  0.025 "/>
+    <!-- 右前轮 -->
+    <xacro:wheel_joint_macro prefix="rf" parent="base_link" xyz=" 0.065 -0.10  0.025"/>
+    <!-- 右后轮 -->
+    <xacro:wheel_joint_macro prefix="rb" parent="base_link" xyz="-0.065 -0.10  0.025"/>
+
+
+    <!--
+    调用STM32开发板宏，填入你的尺寸：
+    length=0.10   长10cm
+    width=0.10    宽10cm  
+    height=0.03   高3cm
+    z_off=0.06    离地6cm（开发板底部离地高度=底盘离地高度+开发板高度/2）
+    mass=0.2      质量0.2kg
+    material=Grey 灰色
+    prefix=stm32  STM32开发板
+    -->
+    <!-- 使用STM32开发板宏，传入参数 -->
+    <xacro:board_macro 
+        length="0.10" 
+        width="0.10" 
+        height="0.03" 
+        z_off="0.06"  
+        mass="0.2"
+        material="Grey"
+        prefix="stm32"/>
+
+    <!-- STM32开发板安装在底盘上，使用固定关节 -->
+    <xacro:board_joint_macro parent="base_link" xyz="0 0 0.005" prefix="stm32"/>
+
+
+    <!--
+    调用rdkx5开发板宏，填入你的尺寸：
+    length=0.10   长10cm
+    width=0.10    宽10cm  
+    height=0.03   高3cm
+    z_off=0.13    离地13cm（开发板底部离地高度=底盘离地高度+开发板高度/2）
+    mass=0.2      质量0.2kg
+    material=Grey 灰色
+    prefix=rdkx5  RDKX5开发板
+    -->
+    <!-- 使用RDKX5开发板宏，传入参数 -->
+    <xacro:board_macro 
+        length="0.10" 
+        width="0.10" 
+        height="0.03" 
+        z_off="0.13"  
+        mass="0.2"
+        material="Gold"
+        prefix="rdkx5"/>
+
+    <!-- RDKX5开发板安装在底盘上，使用固定关节 -->
+    <xacro:board_joint_macro parent="base_link" xyz="0 0 0" prefix="rdkx5"/>
+
+
+
+    <!--
+    调用hikvision单目摄像头宏，填入你的尺寸：
+    length=0.05   长5cm
+    width=0.04    宽4cm  
+    height=0.05   高5cm
+    z_off=0.14    离地13cm（开发板底部离地高度=底盘离地高度+开发板高度/2）
+    mass=0.05      质量0.05kg
+    material=Black 黑色
+    prefix=hikvision  Hikvision单目摄像头
+    -->
+    <!-- 使用Hikvision单目摄像头宏，传入参数 -->
+    <xacro:board_macro 
+        length="0.05" 
+        width="0.04" 
+        height="0.05" 
+        z_off="0.14"  
+        mass="0.05"
+        material="Black"
+        prefix="hikvision"/>
+
+    <!-- Hikvision单目摄像头安装在底盘上，使用固定关节 -->
+    <xacro:board_joint_macro parent="base_link" xyz="0 -0.1 0" prefix="hikvision"/>
+
+
+
+
+
+    <!--
+    调用左前铜柱支撑宏，填入你的尺寸：
+    radius=0.0025  半径2.5mm
+    height=0.05    高5cm
+    z_off=0.025    Z方向中心高度2.5cm（铜柱中心高度=底盘离地高度+铜柱高度/2）
+    mass=0.02     质量0.02kg
+    material=Gold 金色
+    prefix=lf  左前铜柱（left front）
+    -->
+    <!-- 使用左前铜柱支撑宏，传入参数 -->
+    <xacro:copper_pillar_macro 
+        radius="0.0025" 
+        height="0.05" 
+        z_off="0.025" 
+        mass="0.02"
+        material="Gold"
+        prefix="lf"/>
+
+    <!-- 左前铜柱安装在底盘上，使用固定关节 -->
+    <xacro:pillar_joint_macro parent="base_link" xyz="-0.06 0.08 0.055" prefix="lf"/>
+
+    
+
+    <!--
+    调用右前铜柱支撑宏，填入你的尺寸：
+    radius=0.0025  半径2.5mm
+    height=0.05    高5cm
+    z_off=0.025    Z方向中心高度2.5cm（铜柱中心高度=底盘离地高度+铜柱高度/2）
+    mass=0.02     质量0.02kg
+    material=Gold 金色
+    prefix=rf  右前铜柱（right front）
+    -->
+    <!-- 使用右前铜柱支撑宏，传入参数 -->
+    <xacro:copper_pillar_macro 
+        radius="0.0025" 
+        height="0.05" 
+        z_off="0.025" 
+        mass="0.02"
+        material="Gold"
+        prefix="rf"/>
+
+    <!-- 右前铜柱安装在底盘上，使用固定关节 -->
+    <xacro:pillar_joint_macro parent="base_link" xyz="0.06 0.08 0.055" prefix="rf"/>
+
+      
+    <!--
+    调用左后铜柱支撑宏，填入你的尺寸：
+    radius=0.0025  半径2.5mm
+    height=0.05    高5cm
+    z_off=0.025    Z方向中心高度2.5cm（铜柱中心高度=底盘离地高度+铜柱高度/2）
+    mass=0.02     质量0.02kg
+    material=Gold 金色
+    prefix=lb  左后铜柱（left back）
+    -->
+    <!-- 使用左后铜柱支撑宏，传入参数 -->
+    <xacro:copper_pillar_macro 
+        radius="0.0025" 
+        height="0.05" 
+        z_off="0.025" 
+        mass="0.02"
+        material="Gold"
+        prefix="lb"/>
+
+    <!-- 左后铜柱安装在底盘上，使用固定关节 -->
+    <xacro:pillar_joint_macro parent="base_link" xyz="-0.06 -0.08 0.055" prefix="lb"/>
+
+    
+
+    <!--
+    调用右后铜柱支撑宏，填入你的尺寸：
+    radius=0.0025  半径2.5mm
+    height=0.05    高5cm
+    z_off=0.025    Z方向中心高度2.5cm（铜柱中心高度=底盘离地高度+铜柱高度/2）
+    mass=0.02     质量0.02kg
+    material=Gold 金色
+    prefix=rb  右后铜柱（right back）
+    -->
+    <!-- 使用右后铜柱支撑宏，传入参数 -->
+    <xacro:copper_pillar_macro 
+        radius="0.0025" 
+        height="0.05" 
+        z_off="0.025" 
+        mass="0.02"
+        material="Gold"
+        prefix="rb"/>
+
+    <!-- 右后铜柱安装在底盘上，使用固定关节 -->
+    <xacro:pillar_joint_macro parent="base_link" xyz="0.06 -0.08 0.055" prefix="rb"/>
+
+
+    
+    <!--
+    调用激光雷达传感器宏，填入你的尺寸：
+    radius=0.025   半径2.5cm
+    height=0.03    高3cm
+    z_off=0.13     离地13cm（传感器中心离地高度=底盘离地高度+传感器高度/2）
+    mass=0.1      质量0.1kg
+    material=White 白色
+    prefix=lidar  激光雷达传感器
+    -->
+    <!-- 使用激光雷达传感器宏，传入参数 -->
+    <xacro:laser_sensor_macro 
+        radius="0.025"  
+        height="0.03" 
+        z_off="0.13" 
+        mass="0.1"
+        material="White"
+        prefix="lidar"/>
+    
+    <!-- 激光雷达传感器安装在底盘上，使用固定关节 -->
+    <xacro:laser_sensor_joint_macro parent="base_link" xyz="0 0.10 0" prefix="lidar"/>
+
+
+  
+
+
+
+
+
+
+
+
+</robot>

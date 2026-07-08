@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<!--
+    底盘宏定义（长方体）
+    参数说明：
+      length  : 前后长度 (m)  →  13cm
+      width   : 左右宽度 (m)  →  20cm
+      height  : 上下高度 (m)  →  1cm
+      z_off   : 离地高度 (m)  →  5cm
+      mass    : 底盘质量 (kg) →  0.15kg
+      material: 颜色          →  Blue（蓝色）
+      prefix  : 名称前缀（用于区分不同底盘）
+  -->
+
+    <xacro:macro name="base_link_macro" params="length width height z_off mass material prefix">
+    
+        <link name="${prefix}_link">
+            <!-- 可视化 -->
+            <visual>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>
+                <box size="${length} ${width} ${height}"/>
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+        
+             <!-- 碰撞：仿真必须有，和可视化尺寸一样 -->
+            <collision>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>
+                <box size="${length} ${width} ${height}"/>
+                </geometry>
+            </collision>
+
+            <!-- 惯性：仿真物理特性 -->
+            <inertial>
+                <mass value="${mass}"/>  <!-- 底盘重量由mass写入参数决定 -->
+                <origin xyz="0 0 ${z_off}"/>
+                <inertia 
+                    
+                    ixx="${(mass/12)*(width*width + height*height)}"
+                    ixy="0.0"
+                    ixz="0.0"
+                    iyy="${(mass/12)*(length*length + height*height)}"
+                    iyz="0.0"
+                    izz="${(mass/12)*(length*length + width*width)}"
+                /><!-- 长方体转动惯量计算公式 -->
+            </inertial>
+        </link>
+    </xacro:macro>
+
+    
+    
+    <xacro:macro name="base_joint_macro" params="parent xyz prefix">
+    <joint name="base_to_${prefix}_joint" type="fixed">
+        <parent link="${parent}" />
+        <child link="${prefix}_link" />
+        <origin xyz="${xyz}" rpy="0 0 0" />
+    </joint>
+    </xacro:macro>
+
+
+</robot>

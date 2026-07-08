@@ -1,0 +1,20 @@
+digraph G {
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 20.192\nBuffer length: 5.2\nMost recent transform: 1779002011.044788\nOldest transform: 1779002005.844801\n"];
+"base_link" -> "board_hikvision"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "board_rdkx5"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "board_stm32"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "top_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "lb_copper_pillar"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "lf_copper_pillar"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "lidar_laser_sensor"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "rb_copper_pillar"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "rf_copper_pillar"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "lb_wheel"[label=" Broadcaster: default_authority\nAverage rate: 15.46\nBuffer length: 5.11\nMost recent transform: 1779002011.001788\nOldest transform: 1779002005.891958\n"];
+"base_link" -> "lf_wheel"[label=" Broadcaster: default_authority\nAverage rate: 15.46\nBuffer length: 5.11\nMost recent transform: 1779002011.001788\nOldest transform: 1779002005.891958\n"];
+"base_link" -> "rb_wheel"[label=" Broadcaster: default_authority\nAverage rate: 15.46\nBuffer length: 5.11\nMost recent transform: 1779002011.001788\nOldest transform: 1779002005.891958\n"];
+"base_link" -> "rf_wheel"[label=" Broadcaster: default_authority\nAverage rate: 15.46\nBuffer length: 5.11\nMost recent transform: 1779002011.001788\nOldest transform: 1779002005.891958\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1779002011.1361794"[ shape=plaintext ] ;
+}->"odom";
+}

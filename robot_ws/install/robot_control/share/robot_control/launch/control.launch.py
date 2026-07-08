@@ -1,0 +1,1 @@
+/home/sunrise/robot/robot_ws/build/robot_control/launch/control.launch.py

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!--
+        铜柱支撑宏定义（圆柱体）
+        参数说明：
+          radius  : 铜柱半径 (m)       →  0.0025m
+          height  : 铜柱高度 (m)       →  0.05m
+          z_off   : Z 方向中心高度 (m) →  铜柱中心高度
+          mass    : 铜柱质量 (kg)      →  0.02kg
+          material: 颜色               →  Gold(金色)
+          prefix  : 名称前缀（用于区分不同铜柱）
+    -->
+
+    <xacro:macro name="copper_pillar_macro" params="radius height  z_off mass material prefix">
+    
+        <link name="${prefix}_copper_pillar">
+            <!-- 可视化 -->
+            <visual>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>
+                    <cylinder radius="${radius}" length="${height}"/>
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+        
+            <!-- 碰撞：仿真必须有，和可视化尺寸一样 -->
+            <collision>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>
+                    <cylinder radius="${radius}" length="${height}"/>
+                </geometry>
+            </collision>
+
+            <!-- 惯性：仿真物理特性 -->
+            <inertial>
+                <mass value="${mass}"/>  
+                <origin xyz="0 0 ${z_off}"/>
+                <inertia 
+                    ixx="${mass * (radius*radius/4 + height*height/12)}"
+                    ixy="0.0"
+                    ixz="0.0"
+                    iyy="${mass * (radius*radius/4 + height*height/12)}"
+                    iyz="0.0"
+                    izz="${mass * radius*radius/2}"
+                /><!-- 圆柱体转动惯量计算公式 -->       
+            </inertial>
+        </link>
+    </xacro:macro>
+
+    <!-- 铜柱关节宏定义：支持父连杆和位置 -->
+    <xacro:macro name="pillar_joint_macro" params="parent xyz prefix">
+    <joint name="${prefix}_base_to_pillar_joint" type="fixed">
+        <parent link="${parent}" />
+        <child link="${prefix}_copper_pillar" />
+        <origin xyz="${xyz}" rpy="0 0 0" />
+    </joint>
+    </xacro:macro>
+
+</robot>

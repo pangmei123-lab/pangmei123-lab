@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001178] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.002255] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.002971] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.003998] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.044582] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.047764] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.051420] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.128.100 60871 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.122.1'), ('NVM_NODEJS_ORG_MIRROR', 'https://npmmirror.com/mirrors/node'), ('NVM_BIN', '/home/sunrise/.nvm/versions/node/v24.14.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b314a473-8d76-4f85-80bf-b08d17634d2a.sock'), ('NVM_INC', '/home/sunrise/.nvm/versions/node/v24.14.1/include/node'), ('LIDAR_TYPE', 'x3'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/sunrise/.nvm'), ('COLCON_PREFIX_PATH', '/home/sunrise/robot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sunrise/.vscode-server/cli/servers/Stable-8761a5560cfd65fdd19ce7e2bd18dab5c0a4d84e/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/home/sunrise/.nvm/versions/node/v24.14.1/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-2a54b9de54b9cd79.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/data/User/workspaceStorage/8eca91c6b5e499c057389be51f1a1643/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc48dc8b9d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/robot_control:/home/sunrise/robot/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver'), ('COPILOT_DEBUG_NONCE', '16cc73a6d6b135d98a36c2741e21a6a1'), ('SSH_CONNECTION', '192.168.128.100 60871 192.168.128.10 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/robot/robot_ws/build/robot_control:/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/my_robot_description:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.098943] (-) TimerEvent: {}
+[0.199889] (-) TimerEvent: {}
+[0.248698] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[0.300108] (-) TimerEvent: {}
+[0.315526] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[0.365511] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.400327] (-) TimerEvent: {}
+[0.501322] (-) TimerEvent: {}
+[0.602347] (-) TimerEvent: {}
+[0.703525] (-) TimerEvent: {}
+[0.808843] (-) TimerEvent: {}
+[0.909889] (-) TimerEvent: {}
+[1.010868] (-) TimerEvent: {}
+[1.111864] (-) TimerEvent: {}
+[1.212889] (-) TimerEvent: {}
+[1.313885] (-) TimerEvent: {}
+[1.414885] (-) TimerEvent: {}
+[1.515804] (-) TimerEvent: {}
+[1.616761] (-) TimerEvent: {}
+[1.717683] (-) TimerEvent: {}
+[1.818634] (-) TimerEvent: {}
+[1.919595] (-) TimerEvent: {}
+[2.020525] (-) TimerEvent: {}
+[2.121502] (-) TimerEvent: {}
+[2.222455] (-) TimerEvent: {}
+[2.323475] (-) TimerEvent: {}
+[2.424486] (-) TimerEvent: {}
+[2.525458] (-) TimerEvent: {}
+[2.626439] (-) TimerEvent: {}
+[2.727404] (-) TimerEvent: {}
+[2.828365] (-) TimerEvent: {}
+[2.929332] (-) TimerEvent: {}
+[3.030315] (-) TimerEvent: {}
+[3.131270] (-) TimerEvent: {}
+[3.232281] (-) TimerEvent: {}
+[3.333287] (-) TimerEvent: {}
+[3.434246] (-) TimerEvent: {}
+[3.535192] (-) TimerEvent: {}
+[3.636157] (-) TimerEvent: {}
+[3.737111] (-) TimerEvent: {}
+[3.838072] (-) TimerEvent: {}
+[3.939040] (-) TimerEvent: {}
+[4.040010] (-) TimerEvent: {}
+[4.140977] (-) TimerEvent: {}
+[4.241896] (-) TimerEvent: {}
+[4.342892] (-) TimerEvent: {}
+[4.443821] (-) TimerEvent: {}
+[4.544747] (-) TimerEvent: {}
+[4.645726] (-) TimerEvent: {}
+[4.746659] (-) TimerEvent: {}
+[4.847600] (-) TimerEvent: {}
+[4.948536] (-) TimerEvent: {}
+[5.049479] (-) TimerEvent: {}
+[5.150431] (-) TimerEvent: {}
+[5.251412] (-) TimerEvent: {}
+[5.352368] (-) TimerEvent: {}
+[5.453378] (-) TimerEvent: {}
+[5.554365] (-) TimerEvent: {}
+[5.655333] (-) TimerEvent: {}
+[5.756361] (-) TimerEvent: {}
+[5.857330] (-) TimerEvent: {}
+[5.958305] (-) TimerEvent: {}
+[6.059255] (-) TimerEvent: {}
+[6.160200] (-) TimerEvent: {}
+[6.261151] (-) TimerEvent: {}
+[6.362095] (-) TimerEvent: {}
+[6.463093] (-) TimerEvent: {}
+[6.564017] (-) TimerEvent: {}
+[6.664979] (-) TimerEvent: {}
+[6.765978] (-) TimerEvent: {}
+[6.866940] (-) TimerEvent: {}
+[6.967899] (-) TimerEvent: {}
+[7.068879] (-) TimerEvent: {}
+[7.169818] (-) TimerEvent: {}
+[7.270795] (-) TimerEvent: {}
+[7.371760] (-) TimerEvent: {}
+[7.472726] (-) TimerEvent: {}
+[7.573685] (-) TimerEvent: {}
+[7.674620] (-) TimerEvent: {}
+[7.775595] (-) TimerEvent: {}
+[7.876545] (-) TimerEvent: {}
+[7.977518] (-) TimerEvent: {}
+[8.078469] (-) TimerEvent: {}
+[8.179438] (-) TimerEvent: {}
+[8.280438] (-) TimerEvent: {}
+[8.381365] (-) TimerEvent: {}
+[8.482320] (-) TimerEvent: {}
+[8.583321] (-) TimerEvent: {}
+[8.684280] (-) TimerEvent: {}
+[8.785252] (-) TimerEvent: {}
+[8.886210] (-) TimerEvent: {}
+[8.987152] (-) TimerEvent: {}
+[9.088109] (-) TimerEvent: {}
+[9.189053] (-) TimerEvent: {}
+[9.290002] (-) TimerEvent: {}
+[9.390929] (-) TimerEvent: {}
+[9.491880] (-) TimerEvent: {}
+[9.592871] (-) TimerEvent: {}
+[9.693820] (-) TimerEvent: {}
+[9.794766] (-) TimerEvent: {}
+[9.895720] (-) TimerEvent: {}
+[9.996652] (-) TimerEvent: {}
+[10.097622] (-) TimerEvent: {}
+[10.198562] (-) TimerEvent: {}
+[10.299552] (-) TimerEvent: {}
+[10.400496] (-) TimerEvent: {}
+[10.501430] (-) TimerEvent: {}
+[10.602399] (-) TimerEvent: {}
+[10.703409] (-) TimerEvent: {}
+[10.804359] (-) TimerEvent: {}
+[10.905320] (-) TimerEvent: {}
+[11.006282] (-) TimerEvent: {}
+[11.107234] (-) TimerEvent: {}
+[11.208192] (-) TimerEvent: {}
+[11.309142] (-) TimerEvent: {}
+[11.410111] (-) TimerEvent: {}
+[11.511074] (-) TimerEvent: {}
+[11.612031] (-) TimerEvent: {}
+[11.713014] (-) TimerEvent: {}
+[11.813940] (-) TimerEvent: {}
+[11.914861] (-) TimerEvent: {}
+[12.015776] (-) TimerEvent: {}
+[12.116694] (-) TimerEvent: {}
+[12.217640] (-) TimerEvent: {}
+[12.318559] (-) TimerEvent: {}
+[12.419478] (-) TimerEvent: {}
+[12.520389] (-) TimerEvent: {}
+[12.621317] (-) TimerEvent: {}
+[12.722222] (-) TimerEvent: {}
+[12.823192] (-) TimerEvent: {}
+[12.924124] (-) TimerEvent: {}
+[13.025061] (-) TimerEvent: {}
+[13.126012] (-) TimerEvent: {}
+[13.226947] (-) TimerEvent: {}
+[13.327891] (-) TimerEvent: {}
+[13.428823] (-) TimerEvent: {}
+[13.529743] (-) TimerEvent: {}
+[13.630674] (-) TimerEvent: {}
+[13.731611] (-) TimerEvent: {}
+[13.832588] (-) TimerEvent: {}
+[13.933521] (-) TimerEvent: {}
+[14.034483] (-) TimerEvent: {}
+[14.135479] (-) TimerEvent: {}
+[14.236454] (-) TimerEvent: {}
+[14.337451] (-) TimerEvent: {}
+[14.376293] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.377227] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:142:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLaserScanData\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KLaserScan\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[14.377784] (ydlidar_ros2_driver) StderrLine: {'line': b'  142 |     \x1b[01;31m\x1b[KLaserScanData\x1b[m\x1b[K scan_data;\n'}
+[14.378279] (ydlidar_ros2_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.378955] (ydlidar_ros2_driver) StderrLine: {'line': b'      |     \x1b[32m\x1b[KLaserScan\x1b[m\x1b[K\n'}
+[14.379475] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass CYdLidar\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KgrabScanData\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.380007] (ydlidar_ros2_driver) StderrLine: {'line': b'  149 |         if (laser.\x1b[01;31m\x1b[KgrabScanData\x1b[m\x1b[K(scan_data))\n'}
+[14.380472] (ydlidar_ros2_driver) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.401641] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[14.402433] (ydlidar_ros2_driver) StderrLine: {'line': b'  149 |         if (laser.grabScanData(\x1b[01;31m\x1b[Kscan_data\x1b[m\x1b[K))\n'}
+[14.403061] (ydlidar_ros2_driver) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.437609] (-) TimerEvent: {}
+[14.538540] (-) TimerEvent: {}
+[14.639491] (-) TimerEvent: {}
+[14.740452] (-) TimerEvent: {}
+[14.841418] (-) TimerEvent: {}
+[14.942355] (-) TimerEvent: {}
+[15.043370] (-) TimerEvent: {}
+[15.144332] (-) TimerEvent: {}
+[15.245245] (-) TimerEvent: {}
+[15.346180] (-) TimerEvent: {}
+[15.447081] (-) TimerEvent: {}
+[15.548032] (-) TimerEvent: {}
+[15.648985] (-) TimerEvent: {}
+[15.749955] (-) TimerEvent: {}
+[15.850926] (-) TimerEvent: {}
+[15.951872] (-) TimerEvent: {}
+[16.052867] (-) TimerEvent: {}
+[16.153815] (-) TimerEvent: {}
+[16.254754] (-) TimerEvent: {}
+[16.355685] (-) TimerEvent: {}
+[16.456622] (-) TimerEvent: {}
+[16.557639] (-) TimerEvent: {}
+[16.658585] (-) TimerEvent: {}
+[16.759550] (-) TimerEvent: {}
+[16.860495] (-) TimerEvent: {}
+[16.961541] (-) TimerEvent: {}
+[17.062618] (-) TimerEvent: {}
+[17.163655] (-) TimerEvent: {}
+[17.264644] (-) TimerEvent: {}
+[17.365678] (-) TimerEvent: {}
+[17.466661] (-) TimerEvent: {}
+[17.567579] (-) TimerEvent: {}
+[17.668504] (-) TimerEvent: {}
+[17.769491] (-) TimerEvent: {}
+[17.870507] (-) TimerEvent: {}
+[17.971542] (-) TimerEvent: {}
+[18.072588] (-) TimerEvent: {}
+[18.173582] (-) TimerEvent: {}
+[18.274630] (-) TimerEvent: {}
+[18.375660] (-) TimerEvent: {}
+[18.476590] (-) TimerEvent: {}
+[18.577539] (-) TimerEvent: {}
+[18.624070] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[18.627490] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/ydlidar_ros2_driver_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[18.629704] (ydlidar_ros2_driver) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[18.639554] (ydlidar_ros2_driver) CommandEnded: {'returncode': 2}
+[18.677903] (-) TimerEvent: {}
+[18.746505] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 2}
+[18.758848] (-) EventReactorShutdown: {}

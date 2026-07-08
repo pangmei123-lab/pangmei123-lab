@@ -1,0 +1,19 @@
+[0.052s] Invoking command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[0.312s] [ 50%] Built target ydlidar_ros2_driver_client
+[0.362s] [ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[14.373s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.373s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:142:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScanData[m[K’ was not declared in this scope; did you mean ‘[01m[KLaserScan[m[K’?
+[14.374s]   142 |     [01;31m[KLaserScanData[m[K scan_data;
+[14.375s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[14.375s]       |     [32m[KLaserScan[m[K
+[14.376s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass CYdLidar[m[K’ has no member named ‘[01m[KgrabScanData[m[K’
+[14.376s]   149 |         if (laser.[01;31m[KgrabScanData[m[K(scan_data))
+[14.377s]       |                   [01;31m[K^~~~~~~~~~~~[m[K
+[14.398s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:149:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_data[m[K’ was not declared in this scope
+[14.399s]   149 |         if (laser.grabScanData([01;31m[Kscan_data[m[K))
+[14.399s]       |                                [01;31m[K^~~~~~~~~[m[K
+[18.622s] gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76：CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] 错误 1
+[18.625s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/ydlidar_ros2_driver_node.dir/all] 错误 2
+[18.626s] gmake: *** [Makefile:146：all] 错误 2
+[18.639s] Invoked command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver -- -j8 -l8

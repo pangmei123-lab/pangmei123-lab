@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!--
+    激光雷达传感器宏定义（圆柱体）
+    参数说明：
+    radius  : 半径 (m)           →  2.5cm
+    height  : 上下高度 (m)       →  3cm
+    z_off   : 离地高度 (m)       →  13cm
+    mass    : 传感器质量 (kg)    →  0.1kg
+    material: 颜色               →  White(白色)
+    prefix  : 名称前缀（用于区分不同传感器）
+    -->
+
+    <xacro:macro name="laser_sensor_macro" params="radius height z_off mass material prefix">
+        <link name="${prefix}_laser_sensor">
+            <!-- 可视化 -->
+            <visual>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>      
+                    <cylinder radius="${radius}" length="${height}"/>
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+
+            <!-- 碰撞：仿真必须有，和可视化尺寸一样 -->
+            <collision>
+                <origin xyz="0 0 ${z_off}" rpy="0 0 0"/>
+                <geometry>      
+                    <cylinder radius="${radius}" length="${height}"/>
+                </geometry>
+            </collision>
+
+            <!-- 惯性：仿真物理特性 -->
+            <inertial>
+                <mass value="${mass}"/>
+                <origin xyz="0 0 ${z_off}"/>
+                <inertia 
+                    ixx="${(1/12)*mass*(3*radius*radius + height*height)}"
+                    ixy="0.0"
+                    ixz="0.0"
+                    iyy="${(1/2)*mass*radius*radius}"
+                    iyz="0.0"
+                    izz="${(1/12)*mass*(3*radius*radius + height*height)}"
+                />
+            </inertial>
+        </link>
+    </xacro:macro>
+
+
+    <!-- 传感器关节宏定义：支持prefix、自定义父连杆和位置 -->
+    <xacro:macro name="laser_sensor_joint_macro" params="parent xyz prefix">
+    <joint name="${prefix}_laser_sensor_joint" type="fixed">
+        <parent link="${parent}" />
+        <child link="${prefix}_laser_sensor" />     
+        <origin xyz="${xyz}" rpy="0 0 0" />
+    </joint>
+    </xacro:macro>
+</robot>

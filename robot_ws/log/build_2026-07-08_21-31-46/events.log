@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.002998] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.003404] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.003744] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.004058] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.004340] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.004619] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.095546] (-) TimerEvent: {}
+[0.196673] (-) TimerEvent: {}
+[0.298124] (-) TimerEvent: {}
+[0.399079] (-) TimerEvent: {}
+[0.500088] (-) TimerEvent: {}
+[0.601019] (-) TimerEvent: {}
+[0.702053] (-) TimerEvent: {}
+[0.802952] (-) TimerEvent: {}
+[0.903959] (-) TimerEvent: {}
+[1.004867] (-) TimerEvent: {}
+[1.105822] (-) TimerEvent: {}
+[1.206836] (-) TimerEvent: {}
+[1.307810] (-) TimerEvent: {}
+[1.408827] (-) TimerEvent: {}
+[1.509769] (-) TimerEvent: {}
+[1.610700] (-) TimerEvent: {}
+[1.711681] (-) TimerEvent: {}
+[1.812643] (-) TimerEvent: {}
+[1.915632] (-) TimerEvent: {}
+[2.018136] (-) TimerEvent: {}
+[2.119312] (-) TimerEvent: {}
+[2.220397] (-) TimerEvent: {}
+[2.321460] (-) TimerEvent: {}
+[2.422450] (-) TimerEvent: {}
+[2.523402] (-) TimerEvent: {}
+[2.624522] (-) TimerEvent: {}
+[2.725468] (-) TimerEvent: {}
+[2.826376] (-) TimerEvent: {}
+[2.927563] (-) TimerEvent: {}
+[3.028686] (-) TimerEvent: {}
+[3.130101] (-) TimerEvent: {}
+[3.231338] (-) TimerEvent: {}
+[3.332348] (-) TimerEvent: {}
+[3.433353] (-) TimerEvent: {}
+[3.536271] (-) TimerEvent: {}
+[3.637229] (-) TimerEvent: {}
+[3.738396] (-) TimerEvent: {}
+[3.839748] (-) TimerEvent: {}
+[3.940959] (-) TimerEvent: {}
+[4.041930] (-) TimerEvent: {}
+[4.142913] (-) TimerEvent: {}
+[4.245275] (-) TimerEvent: {}
+[4.346250] (-) TimerEvent: {}
+[4.447280] (-) TimerEvent: {}
+[4.548246] (-) TimerEvent: {}
+[4.649311] (-) TimerEvent: {}
+[4.750400] (-) TimerEvent: {}
+[4.851337] (-) TimerEvent: {}
+[4.952276] (-) TimerEvent: {}
+[5.053192] (-) TimerEvent: {}
+[5.154177] (-) TimerEvent: {}
+[5.255150] (-) TimerEvent: {}
+[5.356077] (-) TimerEvent: {}
+[5.457066] (-) TimerEvent: {}
+[5.558196] (-) TimerEvent: {}
+[5.659488] (-) TimerEvent: {}
+[5.762630] (-) TimerEvent: {}
+[5.868150] (-) TimerEvent: {}
+[5.969155] (-) TimerEvent: {}
+[6.070170] (-) TimerEvent: {}
+[6.171453] (-) TimerEvent: {}
+[6.272483] (-) TimerEvent: {}
+[6.373478] (-) TimerEvent: {}
+[6.474456] (-) TimerEvent: {}
+[6.575449] (-) TimerEvent: {}
+[6.676715] (-) TimerEvent: {}
+[6.777688] (-) TimerEvent: {}
+[6.878723] (-) TimerEvent: {}
+[6.980504] (-) TimerEvent: {}
+[7.081505] (-) TimerEvent: {}
+[7.182535] (-) TimerEvent: {}
+[7.197528] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_control', 'build', '--build-base', '/home/sunrise/robot/robot_ws/build/robot_control/build', 'install', '--record', '/home/sunrise/robot/robot_ws/build/robot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/robot/robot_ws/src/robot_control', 'env': {'PYTHON_BASIC_REPL': '1', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.128.100 50212 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sunrise/robot/robot_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'OLDPWD': '/home/sunrise/robot', 'TERM_PROGRAM_VERSION': '1.128.0', 'NVM_NODEJS_ORG_MIRROR': 'https://npmmirror.com/mirrors/node', 'NVM_BIN': '/home/sunrise/.nvm/versions/node/v24.14.1/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-95ca5ba2-1829-496b-815f-955bdf61344c.sock', 'NVM_INC': '/home/sunrise/.nvm/versions/node/v24.14.1/include/node', 'LIDAR_TYPE': 'x3', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/sunrise/.nvm', 'COLCON_PREFIX_PATH': '/home/sunrise/robot/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '34189', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sunrise/.vscode-server/cli/servers/Stable-fc3def6774c76082adf699d366f31a557ce5573f/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/home/sunrise/.nvm/versions/node/v24.14.1/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-31764573242d2828.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/sunrise/.vscode-server/data/User/workspaceStorage/8eca91c6b5e499c057389be51f1a1643/ms-python.python/pythonrc.py', 'CLINE_ACTIVE': 'true', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc48dc8b9d.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '66', 'AMENT_PREFIX_PATH': '/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/slam_gmapping:/home/sunrise/robot/robot_ws/install/robot_control:/home/sunrise/robot/robot_ws/install/openslam_gmapping:/home/sunrise/robot/robot_ws/install/my_robot_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/robot/robot_ws/build/robot_control', 'COPILOT_DEBUG_NONCE': '16cc73a6d6b135d98a36c2741e21a6a1', 'SSH_CONNECTION': '192.168.128.100 50212 192.168.128.10 22', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sunrise/robot/robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages:/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/robot/robot_ws/install/ydlidar_ros2_driver:/home/sunrise/robot/robot_ws/install/slam_gmapping:/home/sunrise/robot/robot_ws/install/openslam_gmapping:/home/sunrise/robot/robot_ws/install/my_robot_description'}, 'shell': False}
+[7.282819] (-) TimerEvent: {}
+[7.383865] (-) TimerEvent: {}
+[7.484784] (-) TimerEvent: {}
+[7.585709] (-) TimerEvent: {}
+[7.691237] (-) TimerEvent: {}
+[7.792250] (-) TimerEvent: {}
+[7.893337] (-) TimerEvent: {}
+[7.994516] (-) TimerEvent: {}
+[8.095501] (-) TimerEvent: {}
+[8.196505] (-) TimerEvent: {}
+[8.297482] (-) TimerEvent: {}
+[8.398526] (-) TimerEvent: {}
+[8.499549] (-) TimerEvent: {}
+[8.600508] (-) TimerEvent: {}
+[8.701464] (-) TimerEvent: {}
+[8.802412] (-) TimerEvent: {}
+[8.903510] (-) TimerEvent: {}
+[9.004520] (-) TimerEvent: {}
+[9.105557] (-) TimerEvent: {}
+[9.206541] (-) TimerEvent: {}
+[9.307639] (-) TimerEvent: {}
+[9.408820] (-) TimerEvent: {}
+[9.511913] (-) TimerEvent: {}
+[9.612917] (-) TimerEvent: {}
+[9.713894] (-) TimerEvent: {}
+[9.814981] (-) TimerEvent: {}
+[9.895891] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.915266] (-) TimerEvent: {}
+[9.922990] (robot_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[9.925106] (robot_control) StdoutLine: {'line': b'running build\n'}
+[9.926053] (robot_control) StdoutLine: {'line': b'running build_py\n'}
+[9.926824] (robot_control) StdoutLine: {'line': b'copying robot_control/odom_publisher.py -> /home/sunrise/robot/robot_ws/build/robot_control/build/lib/robot_control\n'}
+[9.927936] (robot_control) StdoutLine: {'line': b'running install\n'}
+[9.932285] (robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[9.941456] (robot_control) StdoutLine: {'line': b'byte-compiling /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/odom_publisher.py to odom_publisher.cpython-310.pyc\n'}
+[9.950308] (robot_control) StdoutLine: {'line': b'running install_data\n'}
+[9.952044] (robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.963924] (robot_control) StdoutLine: {'line': b"removing '/home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.966657] (robot_control) StdoutLine: {'line': b'Copying ../../build/robot_control/robot_control.egg-info to /home/sunrise/robot/robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info\n'}
+[9.972398] (robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[10.015724] (-) TimerEvent: {}
+[10.116939] (-) TimerEvent: {}
+[10.125317] (robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/robot/robot_ws/build/robot_control/install.log'\n"}
+[10.217268] (-) TimerEvent: {}
+[10.318410] (-) TimerEvent: {}
+[10.419498] (-) TimerEvent: {}
+[10.441147] (robot_control) CommandEnded: {'returncode': 0}
+[10.516958] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[10.519737] (-) TimerEvent: {}
+[10.523492] (-) EventReactorShutdown: {}

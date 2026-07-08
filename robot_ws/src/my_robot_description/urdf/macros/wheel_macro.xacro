@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!--
+        轮子宏定义（圆柱体）
+        参数说明：
+        radius  : 轮子半径 (m)
+        length  : 轮子厚度 (m)
+        mass    : 轮子质量 (kg)
+        material: 颜色
+        prefix  : 轮子名称前缀（用于区分左前/左后/右前/右后）
+    -->
+
+    <!-- 1. 轮子link宏（定义轮子的可视化、碰撞、惯性） -->
+    <xacro:macro name="wheel_macro" params="radius length mass material prefix">
+        <link name="${prefix}_wheel">
+            <!-- 可视化：圆柱默认轴线朝Z，绕Y轴旋转90度使轴朝X方向（轮子滚动方向） -->
+            <visual>
+                <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+
+            <!-- 碰撞 -->
+            <collision>
+                <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+            </collision>
+
+            <!-- 惯性 -->
+            <inertial>
+                <mass value="${mass}"/>
+                <origin xyz="0 0 0"/>
+                <inertia
+                    ixx="${(1/12)*mass*(3*radius*radius + length*length)}"
+                    ixy="0.0"
+                    ixz="0.0"
+                    iyy="${(1/2)*mass*radius*radius}"
+                    iyz="0.0"
+                    izz="${(1/12)*mass*(3*radius*radius + length*length)}"
+                />
+            </inertial>
+        </link>
+    </xacro:macro>
+
+    <!-- 2. 轮子joint宏（定义轮子和底盘的关节） -->
+    <xacro:macro name="wheel_joint_macro" params="prefix parent xyz">
+        <joint name="${prefix}_wheel_joint" type="continuous">
+            <parent link="${parent}" />
+            <child link="${prefix}_wheel" />
+            <!-- 位置由xyz决定，rpy将圆柱Z轴转至X轴方向使其绕X轴旋转 -->
+            <origin xyz="${xyz}" rpy="1.5708 0 0"/>
+            <axis xyz="1 0 0" />
+        </joint>
+    </xacro:macro>
+
+</robot>

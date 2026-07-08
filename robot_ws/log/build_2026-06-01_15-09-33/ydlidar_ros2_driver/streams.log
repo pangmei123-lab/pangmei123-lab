@@ -1,0 +1,696 @@
+[0.067s] Invoking command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[0.567s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[0.772s] [ 50%] Built target ydlidar_ros2_driver_client
+[0.775s] [ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[0.985s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:16:10:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[0.986s]    16 | #include [01;31m[K「[m[Ksrc/CYdLidar.h」
+[0.987s]       |          [01;31m[K^[m[K
+[0.987s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:16:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[0.987s]    16 | #include [01;31m[K「src[m[K/CYdLidar.h」
+[0.988s]       |          [01;31m[K^~~~~[m[K
+[0.988s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:16:25:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[0.989s]    16 | #include 「src/CYdLidar.[01;31m[Kh[m[K」
+[0.989s]       |                         [01;31m[K^[m[K
+[2.000s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:22:10:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.001s]    22 | #include [01;31m[K「[m[Krclcpp/clock.hpp」
+[2.002s]       |          [01;31m[K^[m[K
+[2.002s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:22:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[2.003s]    22 | #include [01;31m[K「rclcpp[m[K/clock.hpp」
+[2.003s]       |          [01;31m[K^~~~~~~~[m[K
+[2.004s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:22:25:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.004s]    22 | #include 「rclcpp/clock.[01;31m[Kh[m[Kpp」
+[2.005s]       |                         [01;31m[K^[m[K
+[2.005s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23:10:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.006s]    23 | #include [01;31m[K「[m[Krclcpp/rclcpp.hpp」
+[2.006s]       |          [01;31m[K^[m[K
+[2.007s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[2.008s]    23 | #include [01;31m[K「rclcpp[m[K/rclcpp.hpp」
+[2.008s]       |          [01;31m[K^~~~~~~~[m[K
+[2.009s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:23:26:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.010s]    23 | #include 「rclcpp/rclcpp.[01;31m[Kh[m[Kpp」
+[2.010s]       |                          [01;31m[K^[m[K
+[2.011s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:24:10:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.012s]    24 | #include [01;31m[K「[m[Krclcpp/time_source.hpp」
+[2.012s]       |          [01;31m[K^[m[K
+[2.013s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:24:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[2.013s]    24 | #include [01;31m[K「rclcpp[m[K/time_source.hpp」
+[2.014s]       |          [01;31m[K^~~~~~~~[m[K
+[2.014s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:24:31:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.015s]    24 | #include 「rclcpp/time_source.[01;31m[Kh[m[Kpp」
+[2.015s]       |                               [01;31m[K^[m[K
+[2.016s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:25:10:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.016s]    25 | #include [01;31m[K「[m[Ksensor_msgs/msg/laser_scan.hpp」
+[2.017s]       |          [01;31m[K^[m[K
+[2.017s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:25:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[2.018s]    25 | #include [01;31m[K「sensor_msgs[m[K/msg/laser_scan.hpp」
+[2.019s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[2.019s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:25:39:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.020s]    25 | #include 「sensor_msgs/msg/laser_scan.[01;31m[Kh[m[Kpp」
+[2.020s]       |                                       [01;31m[K^[m[K
+[2.021s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:26:10:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.021s]    26 | #include [01;31m[K「[m[Kstd_srvs/srv/empty.hpp」
+[2.022s]       |          [01;31m[K^[m[K
+[2.022s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:26:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[2.023s]    26 | #include [01;31m[K「std_srvs[m[K/srv/empty.hpp」
+[2.023s]       |          [01;31m[K^~~~~~~~~~[m[K
+[2.024s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:26:31:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.024s]    26 | #include 「std_srvs/srv/empty.[01;31m[Kh[m[Kpp」
+[2.025s]       |                               [01;31m[K^[m[K
+[2.109s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:32:21:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.111s]    32 | #define ROS2Version [01;31m[K「[m[K1.0.1」
+[2.114s]       |                     [01;31m[K^[m[K
+[2.116s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:32:24:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.117s]    32 | #define ROS2Version 「1[01;31m[K.[m[K0.1」
+[2.117s]       |                        [01;31m[K^[m[K
+[2.118s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:37:41:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.118s]    37 |   auto node = rclcpp::Node::make_shared([01;31m[K「[m[Kydlidar_ros2_driver_node」);
+[2.119s]       |                                         [01;31m[K^[m[K
+[2.119s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:37:41:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.120s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:39:35:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.120s]    39 |   RCLCPP_INFO(node->get_logger(), [01;31m[K「[m[K[YDLIDAR INFO] Current ROS Driver Version: %s\n」, ((std::string)ROS2Verision).c_str());
+[2.121s]       |                                   [01;31m[K^[m[K
+[2.121s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:39:82:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[2.122s]    39 |   RCLCPP_INFO(node->get_logger(), 「[YDLIDAR INFO] Current ROS Driver Version: %s[01;31m[K\[m[Kn」, ((std::string)ROS2Verision).c_str());
+[2.122s]       |                                                                                  [01;31m[K^[m[K
+[2.123s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:39:83:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.123s]    39 |   RCLCPP_INFO(node->get_logger(), 「[YDLIDAR INFO] Current ROS Driver Version: %s\[01;31m[Kn[m[K」, ((std::string)ROS2Verision).c_str());
+[2.124s]       |                                                                                   [01;31m[K^[m[K
+[2.124s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:44:30:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.125s]    44 |   std::string str_optvalue = [01;31m[K「[m[K/dev/ydlidar」;
+[2.125s]       |                              [01;31m[K^[m[K
+[2.126s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:44:37:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.126s]    44 |   std::string str_optvalue = 「/dev/[01;31m[Ky[m[Kdlidar」;
+[2.127s]       |                                     [01;31m[K^[m[K
+[2.127s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:45:40:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.128s]    45 |   node->declare_parameter<std::string>([01;31m[K「[m[Kport」, str_optvalue);
+[2.128s]       |                                        [01;31m[K^[m[K
+[2.129s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:45:40:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.129s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:46:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.130s]    46 |   node->get_parameter([01;31m[K「[m[Kport」, str_optvalue);
+[2.130s]       |                       [01;31m[K^[m[K
+[2.131s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:46:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.131s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:49:18:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.132s]    49 |   str_optvalue = [01;31m[K「[m[K」;
+[2.132s]       |                  [01;31m[K^[m[K
+[2.133s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:49:18:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.133s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:50:40:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.134s]    50 |   node->declare_parameter<std::string>([01;31m[K「[m[Kignore_array」, str_optvalue);
+[2.134s]       |                                        [01;31m[K^[m[K
+[2.135s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:50:40:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.135s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:51:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.136s]    51 |   node->get_parameter([01;31m[K「[m[Kignore_array」, str_optvalue);
+[2.136s]       |                       [01;31m[K^[m[K
+[2.136s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:51:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.137s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:54:26:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.138s]    54 |   std::string frame_id = [01;31m[K「[m[Klaser_frame」;
+[2.138s]       |                          [01;31m[K^[m[K
+[2.138s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:54:26:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.139s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:55:40:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.139s]    55 |   node->declare_parameter<std::string>([01;31m[K「[m[Kframe_id」, frame_id);
+[2.140s]       |                                        [01;31m[K^[m[K
+[2.140s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:55:40:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.141s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:56:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.141s]    56 |   node->get_parameter([01;31m[K「[m[Kframe_id」, frame_id);
+[2.142s]       |                       [01;31m[K^[m[K
+[2.143s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:56:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.143s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:59:32:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.144s]    59 |   node->declare_parameter<int>([01;31m[K「[m[Kbaudrate」, optval);
+[2.144s]       |                                [01;31m[K^[m[K
+[2.145s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:59:32:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.145s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:60:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.146s]    60 |   node->get_parameter([01;31m[K「[m[Kbaudrate」, optval);
+[2.146s]       |                       [01;31m[K^[m[K
+[2.147s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:60:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.147s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:64:32:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.148s]    64 |   node->declare_parameter<int>([01;31m[K「[m[Klidar_type」, optval);
+[2.148s]       |                                [01;31m[K^[m[K
+[2.149s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:64:32:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.149s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:65:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.150s]    65 |   node->get_parameter([01;31m[K「[m[Klidar_type」, optval);
+[2.151s]       |                       [01;31m[K^[m[K
+[2.151s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:65:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.152s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:69:32:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.153s]    69 |   node->declare_parameter<int>([01;31m[K「[m[Kdevice_type」, optval);
+[2.153s]       |                                [01;31m[K^[m[K
+[2.154s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:69:32:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.155s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:70:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.156s]    70 |   node->get_parameter([01;31m[K「[m[Kdevice_type」, optval);
+[2.156s]       |                       [01;31m[K^[m[K
+[2.157s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:70:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.158s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:74:32:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.159s]    74 |   node->declare_parameter<int>([01;31m[K「[m[Ksample_rate」, optval);
+[2.159s]       |                                [01;31m[K^[m[K
+[2.160s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:74:32:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.160s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:75:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.161s]    75 |   node->get_parameter([01;31m[K「[m[Ksample_rate」, optval);
+[2.161s]       |                       [01;31m[K^[m[K
+[2.162s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:75:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.162s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:79:32:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.163s]    79 |   node->declare_parameter<int>([01;31m[K「[m[Kabnormal_check_count」, optval);
+[2.164s]       |                                [01;31m[K^[m[K
+[2.164s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:79:32:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.165s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:80:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.165s]    80 |   node->get_parameter([01;31m[K「[m[Kabnormal_check_count」, optval);
+[2.166s]       |                       [01;31m[K^[m[K
+[2.166s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:80:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.167s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:84:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.168s]    84 |   node->declare_parameter<bool>([01;31m[K「[m[Kfixed_resolution」, b_optvalue);
+[2.168s]       |                                 [01;31m[K^[m[K
+[2.169s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:84:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.169s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:85:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.170s]    85 |   node->get_parameter([01;31m[K「[m[Kfixed_resolution」, b_optvalue);
+[2.171s]       |                       [01;31m[K^[m[K
+[2.171s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:85:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.172s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:89:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.172s]    89 |   node->declare_parameter<bool>([01;31m[K「[m[Kreversion」, b_optvalue);
+[2.173s]       |                                 [01;31m[K^[m[K
+[2.173s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:89:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.174s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:90:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.175s]    90 |   node->get_parameter([01;31m[K「[m[Kreversion」, b_optvalue);
+[2.175s]       |                       [01;31m[K^[m[K
+[2.176s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:90:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.176s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:94:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.177s]    94 |   node->declare_parameter<bool>([01;31m[K「[m[Kinverted」, b_optvalue);
+[2.177s]       |                                 [01;31m[K^[m[K
+[2.178s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:94:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.179s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:95:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.179s]    95 |   node->get_parameter([01;31m[K「[m[Kinverted」, b_optvalue);
+[2.180s]       |                       [01;31m[K^[m[K
+[2.180s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:95:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.181s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:99:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.181s]    99 |   node->declare_parameter<bool>([01;31m[K「[m[Kauto_reconnect」, b_optvalue);
+[2.182s]       |                                 [01;31m[K^[m[K
+[2.182s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:99:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.183s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:100:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.184s]   100 |   node->get_parameter([01;31m[K「[m[Kauto_reconnect」, b_optvalue);
+[2.184s]       |                       [01;31m[K^[m[K
+[2.185s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:100:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.185s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:104:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.186s]   104 |   node->declare_parameter<bool>([01;31m[K「[m[KisSingleChannel」, b_optvalue);
+[2.187s]       |                                 [01;31m[K^[m[K
+[2.187s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:104:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.188s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:105:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.188s]   105 |   node->get_parameter([01;31m[K「[m[KisSingleChannel」, b_optvalue);
+[2.189s]       |                       [01;31m[K^[m[K
+[2.189s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:105:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.190s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:109:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.190s]   109 |   node->declare_parameter<bool>([01;31m[K「[m[Kintensity」, b_optvalue);
+[2.191s]       |                                 [01;31m[K^[m[K
+[2.191s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:109:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.192s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:110:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.193s]   110 |   node->get_parameter([01;31m[K「[m[Kintensity」, b_optvalue);
+[2.193s]       |                       [01;31m[K^[m[K
+[2.194s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:110:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.194s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:114:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.195s]   114 |   node->declare_parameter<bool>([01;31m[K「[m[Ksupport_motor_dtr」, b_optvalue);
+[2.195s]       |                                 [01;31m[K^[m[K
+[2.196s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:114:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.197s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:115:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.197s]   115 |   node->get_parameter([01;31m[K「[m[Ksupport_motor_dtr」, b_optvalue);
+[2.198s]       |                       [01;31m[K^[m[K
+[2.198s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:115:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.199s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:119:34:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.199s]   119 |   node->declare_parameter<float>([01;31m[K「[m[Kangle_max」, f_optvalue);
+[2.200s]       |                                  [01;31m[K^[m[K
+[2.200s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:119:34:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.201s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:120:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.201s]   120 |   node->get_parameter([01;31m[K「[m[Kangle_max」, f_optvalue);
+[2.202s]       |                       [01;31m[K^[m[K
+[2.202s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:120:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.203s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:124:34:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.203s]   124 |   node->declare_parameter<float>([01;31m[K「[m[Kangle_min」, f_optvalue);
+[2.204s]       |                                  [01;31m[K^[m[K
+[2.204s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:124:34:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.205s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:125:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.206s]   125 |   node->get_parameter([01;31m[K「[m[Kangle_min」, f_optvalue);
+[2.206s]       |                       [01;31m[K^[m[K
+[2.207s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:125:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.207s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:129:34:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.208s]   129 |   node->declare_parameter<float>([01;31m[K「[m[Krange_max」, f_optvalue);
+[2.208s]       |                                  [01;31m[K^[m[K
+[2.209s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:129:34:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.209s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:130:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.210s]   130 |   node->get_parameter([01;31m[K「[m[Krange_max」, f_optvalue);
+[2.210s]       |                       [01;31m[K^[m[K
+[2.211s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:130:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.211s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:134:34:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.212s]   134 |   node->declare_parameter<float>([01;31m[K「[m[Krange_min」, f_optvalue);
+[2.212s]       |                                  [01;31m[K^[m[K
+[2.213s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:134:34:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.213s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:135:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.214s]   135 |   node->get_parameter([01;31m[K「[m[Krange_min」, f_optvalue);
+[2.215s]       |                       [01;31m[K^[m[K
+[2.215s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:135:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.216s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:139:34:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.216s]   139 |   node->declare_parameter<float>([01;31m[K「[m[Kfrequency」, f_optvalue);
+[2.217s]       |                                  [01;31m[K^[m[K
+[2.217s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:139:34:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.218s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:140:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.218s]   140 |   node->get_parameter([01;31m[K「[m[Kfrequency」, f_optvalue);
+[2.219s]       |                       [01;31m[K^[m[K
+[2.219s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:140:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.220s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:144:33:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.220s]   144 |   node->declare_parameter<bool>([01;31m[K「[m[Kinvalid_range_is_inf」, invalid_range_is_inf);
+[2.221s]       |                                 [01;31m[K^[m[K
+[2.221s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:144:33:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.222s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:145:23:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.222s]   145 |   node->get_parameter([01;31m[K「[m[Kinvalid_range_is_inf」, invalid_range_is_inf);
+[2.223s]       |                       [01;31m[K^[m[K
+[2.223s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:145:23:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.224s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:151:38:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.224s]   151 |     RCLCPP_ERROR(node->get_logger(), [01;31m[K「[m[K%s\n」, laser.DescribeError());
+[2.225s]       |                                      [01;31m[K^[m[K
+[2.226s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:151:42:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[2.226s]   151 |     RCLCPP_ERROR(node->get_logger(), 「%s[01;31m[K\[m[Kn」, laser.DescribeError());
+[2.227s]       |                                          [01;31m[K^[m[K
+[2.227s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:151:43:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.228s]   151 |     RCLCPP_ERROR(node->get_logger(), 「%s\[01;31m[Kn[m[K」, laser.DescribeError());
+[2.228s]       |                                           [01;31m[K^[m[K
+[2.229s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:154:72:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.229s]   154 |   auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>([01;31m[K「[m[Kscan」, rclcpp::QoS(rclcpp::KeepLast(10)));
+[2.230s]       |                                                                        [01;31m[K^[m[K
+[2.231s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:154:72:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.231s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:66:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.232s]   164 |   auto stop_service = node->create_service<std_srvs::srv::Empty>([01;31m[K「[m[Kstop_scan」, stop_scan_service);
+[2.232s]       |                                                                  [01;31m[K^[m[K
+[2.233s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:66:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.233s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:67:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.234s]   174 |   auto start_service = node->create_service<std_srvs::srv::Empty>([01;31m[K「[m[Kstart_scan」, start_scan_service);
+[2.234s]       |                                                                   [01;31m[K^[m[K
+[2.235s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:67:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.235s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:209:40:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.236s]   209 |       RCLCPP_ERROR(node->get_logger(), [01;31m[K「[m[KFailed to get scan」);
+[2.236s]       |                                        [01;31m[K^[m[K
+[2.237s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:209:56:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.237s]   209 |       RCLCPP_ERROR(node->get_logger(), 「Failed to get [01;31m[Ks[m[Kcan」);
+[2.238s]       |                                                        [01;31m[K^[m[K
+[2.238s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:219:35:[m[K [01;31m[Kerror: [m[Kextended character 「 is not valid in an identifier
+[2.239s]   219 |   RCLCPP_INFO(node->get_logger(), [01;31m[K「[m[K[YDLIDAR INFO] Now YDLIDAR is stopping .......」);
+[2.239s]       |                                   [01;31m[K^[m[K
+[2.240s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:219:83:[m[K [01;31m[Kerror: [m[Kextended character 」 is not valid in an identifier
+[2.240s]   219 |   RCLCPP_INFO(node->get_logger(), 「[YDLIDAR INFO] Now YDLIDAR is stopping .......[01;31m[K」[m[K);
+[2.241s]       |                                                                                   [01;31m[K^[m[K
+[4.506s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.506s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[4.507s]    35 |   [01;31m[Krclcpp[m[K::init(argc, argv);
+[4.508s]       |   [01;31m[K^~~~~~[m[K
+[4.508s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:37:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[4.509s]    37 |   auto node = [01;31m[Krclcpp[m[K::Node::make_shared(「ydlidar_ros2_driver_node」);
+[4.509s]       |               [01;31m[K^~~~~~[m[K
+[4.533s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:37:41:[m[K [01;31m[Kerror: [m[K‘[01m[K「ydlidar_ros2_driver_node」[m[K’ was not declared in this scope
+[4.534s]    37 |   auto node = rclcpp::Node::make_shared([01;31m[K「ydlidar_ros2_driver_node」[m[K);
+[4.535s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.550s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:39:35:[m[K [01;31m[Kerror: [m[K‘[01m[K「[m[K’ was not declared in this scope
+[4.550s]    39 |   RCLCPP_INFO(node->get_logger(), [01;31m[K「[m[K[YDLIDAR INFO] Current ROS Driver Version: %s\n」, ((std::string)ROS2Verision).c_str());
+[4.551s]       |                                   [01;31m[K^~[m[K
+[4.569s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:39:38:[m[K [01;31m[Kerror: [m[K‘[01m[KYDLIDAR[m[K’ was not declared in this scope
+[4.570s]    39 |   RCLCPP_INFO(node->get_logger(), 「[[01;31m[KYDLIDAR[m[K INFO] Current ROS Driver Version: %s\n」, ((std::string)ROS2Verision).c_str());
+[4.571s]       |                                      [01;31m[K^~~~~~~[m[K
+[4.572s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:39:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[KINFO[m[K’
+[4.572s]    39 |   RCLCPP_INFO(node->get_logger(), 「[YDLIDAR[01;31m[K [m[K[32m[KINFO[m[K] Current ROS Driver Version: %s\n」, ((std::string)ROS2Verision).c_str());
+[4.573s]       |                                             [01;31m[K^[m[K[32m[K~~~~[m[K
+[4.574s]       |                                             [32m[K][m[K
+[4.590s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCYdLidar[m[K’ was not declared in this scope
+[4.591s]    41 |   [01;31m[KCYdLidar[m[K laser;
+[4.592s]       |   [01;31m[K^~~~~~~~[m[K
+[4.606s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:44:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdev[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+[4.607s]    44 |   std::string str_optvalue = 「/[01;31m[Kdev[m[K/ydlidar」;
+[4.607s]       |                                 [01;31m[K^~~[m[K
+[4.608s]       |                                 [32m[Kdiv[m[K
+[4.628s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:44:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kydlidar」[m[K’ was not declared in this scope
+[4.629s]    44 |   std::string str_optvalue = 「/dev/[01;31m[Kydlidar」[m[K;
+[4.629s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[4.630s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:45:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.631s]    45 |   node->declare_parameter<std::string[01;31m[K>[m[K(「port」, str_optvalue);
+[4.632s]       |                                      [01;31m[K^[m[K
+[4.650s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:45:40:[m[K [01;31m[Kerror: [m[K‘[01m[K「port」[m[K’ was not declared in this scope
+[4.651s]    45 |   node->declare_parameter<std::string>([01;31m[K「port」[m[K, str_optvalue);
+[4.652s]       |                                        [01;31m[K^~~~~~~~[m[K
+[4.669s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser[m[K’ was not declared in this scope
+[4.670s]    47 |   [01;31m[Klaser[m[K.setlidaropt(LidarPropSerialPort, str_optvalue.c_str(), str_optvalue.size());
+[4.671s]       |   [01;31m[K^~~~~[m[K
+[4.697s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:47:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropSerialPort[m[K’ was not declared in this scope
+[4.697s]    47 |   laser.setlidaropt([01;31m[KLidarPropSerialPort[m[K, str_optvalue.c_str(), str_optvalue.size());
+[4.698s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.716s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:49:18:[m[K [01;31m[Kerror: [m[K‘[01m[K「」[m[K’ was not declared in this scope
+[4.717s]    49 |   str_optvalue = [01;31m[K「」[m[K;
+[4.718s]       |                  [01;31m[K^~~~[m[K
+[4.718s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:50:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.719s]    50 |   node->declare_parameter<std::string[01;31m[K>[m[K(「ignore_array」, str_optvalue);
+[4.719s]       |                                      [01;31m[K^[m[K
+[4.741s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:50:40:[m[K [01;31m[Kerror: [m[K‘[01m[K「ignore_array」[m[K’ was not declared in this scope
+[4.742s]    50 |   node->declare_parameter<std::string>([01;31m[K「ignore_array」[m[K, str_optvalue);
+[4.742s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.766s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:52:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropIgnoreArray[m[K’ was not declared in this scope
+[4.766s]    52 |   laser.setlidaropt([01;31m[KLidarPropIgnoreArray[m[K, str_optvalue.c_str(), str_optvalue.size());
+[4.767s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.791s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:54:26:[m[K [01;31m[Kerror: [m[K‘[01m[K「laser_frame」[m[K’ was not declared in this scope
+[4.792s]    54 |   std::string frame_id = [01;31m[K「laser_frame」[m[K;
+[4.792s]       |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.793s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:55:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.793s]    55 |   node->declare_parameter<std::string[01;31m[K>[m[K(「frame_id」, frame_id);
+[4.794s]       |                                      [01;31m[K^[m[K
+[4.813s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:55:40:[m[K [01;31m[Kerror: [m[K‘[01m[K「frame_id」[m[K’ was not declared in this scope
+[4.814s]    55 |   node->declare_parameter<std::string>([01;31m[K「frame_id」[m[K, frame_id);
+[4.815s]       |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[4.815s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:59:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[4.816s]    59 |   node->declare_parameter<[01;31m[Kint[m[K>(「baudrate」, optval);
+[4.816s]       |                           [01;31m[K^~~[m[K
+[4.836s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:60:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「baudrate」[m[K’ was not declared in this scope
+[4.837s]    60 |   node->get_parameter([01;31m[K「baudrate」[m[K, optval);
+[4.837s]       |                       [01;31m[K^~~~~~~~~~~~[m[K
+[4.861s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:61:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropSerialBaudrate[m[K’ was not declared in this scope
+[4.862s]    61 |   laser.setlidaropt([01;31m[KLidarPropSerialBaudrate[m[K, &optval, sizeof(int));
+[4.862s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.883s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:63:12:[m[K [01;31m[Kerror: [m[K‘[01m[KTYPE_TRIANGLE[m[K’ was not declared in this scope
+[4.884s]    63 |   optval = [01;31m[KTYPE_TRIANGLE[m[K;
+[4.885s]       |            [01;31m[K^~~~~~~~~~~~~[m[K
+[4.885s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:64:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[4.886s]    64 |   node->declare_parameter<[01;31m[Kint[m[K>(「lidar_type」, optval);
+[4.886s]       |                           [01;31m[K^~~[m[K
+[4.907s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:65:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「lidar_type」[m[K’ was not declared in this scope
+[4.908s]    65 |   node->get_parameter([01;31m[K「lidar_type」[m[K, optval);
+[4.908s]       |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.931s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:66:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropLidarType[m[K’ was not declared in this scope
+[4.932s]    66 |   laser.setlidaropt([01;31m[KLidarPropLidarType[m[K, &optval, sizeof(int));
+[4.933s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.956s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:68:12:[m[K [01;31m[Kerror: [m[K‘[01m[KYDLIDAR_TYPE_SERIAL[m[K’ was not declared in this scope
+[4.957s]    68 |   optval = [01;31m[KYDLIDAR_TYPE_SERIAL[m[K;
+[4.957s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.958s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:69:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[4.959s]    69 |   node->declare_parameter<[01;31m[Kint[m[K>(「device_type」, optval);
+[4.959s]       |                           [01;31m[K^~~[m[K
+[4.982s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:70:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「device_type」[m[K’ was not declared in this scope
+[4.983s]    70 |   node->get_parameter([01;31m[K「device_type」[m[K, optval);
+[4.984s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.010s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:71:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropDeviceType[m[K’ was not declared in this scope
+[5.011s]    71 |   laser.setlidaropt([01;31m[KLidarPropDeviceType[m[K, &optval, sizeof(int));
+[5.011s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.012s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:74:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[5.013s]    74 |   node->declare_parameter<[01;31m[Kint[m[K>(「sample_rate」, optval);
+[5.014s]       |                           [01;31m[K^~~[m[K
+[5.036s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:75:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「sample_rate」[m[K’ was not declared in this scope
+[5.037s]    75 |   node->get_parameter([01;31m[K「sample_rate」[m[K, optval);
+[5.038s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.065s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:76:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropSampleRate[m[K’ was not declared in this scope
+[5.066s]    76 |   laser.setlidaropt([01;31m[KLidarPropSampleRate[m[K, &optval, sizeof(int));
+[5.066s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.067s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:79:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[5.068s]    79 |   node->declare_parameter<[01;31m[Kint[m[K>(「abnormal_check_count」, optval);
+[5.068s]       |                           [01;31m[K^~~[m[K
+[5.092s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:80:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「abnormal_check_count」[m[K’ was not declared in this scope
+[5.092s]    80 |   node->get_parameter([01;31m[K「abnormal_check_count」[m[K, optval);
+[5.093s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.118s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:81:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropAbnormalCheckCount[m[K’ was not declared in this scope
+[5.118s]    81 |   laser.setlidaropt([01;31m[KLidarPropAbnormalCheckCount[m[K, &optval, sizeof(int));
+[5.119s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.120s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:84:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.121s]    84 |   node->declare_parameter<[01;31m[Kbool[m[K>(「fixed_resolution」, b_optvalue);
+[5.121s]       |                           [01;31m[K^~~~[m[K
+[5.144s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:85:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「fixed_resolution」[m[K’ was not declared in this scope
+[5.145s]    85 |   node->get_parameter([01;31m[K「fixed_resolution」[m[K, b_optvalue);
+[5.145s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.170s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:86:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropFixedResolution[m[K’ was not declared in this scope
+[5.171s]    86 |   laser.setlidaropt([01;31m[KLidarPropFixedResolution[m[K, &b_optvalue, sizeof(bool));
+[5.171s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.172s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:89:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.173s]    89 |   node->declare_parameter<[01;31m[Kbool[m[K>(「reversion」, b_optvalue);
+[5.173s]       |                           [01;31m[K^~~~[m[K
+[5.194s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:90:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「reversion」[m[K’ was not declared in this scope
+[5.194s]    90 |   node->get_parameter([01;31m[K「reversion」[m[K, b_optvalue);
+[5.195s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.219s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:91:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropReversion[m[K’ was not declared in this scope
+[5.219s]    91 |   laser.setlidaropt([01;31m[KLidarPropReversion[m[K, &b_optvalue, sizeof(bool));
+[5.220s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.221s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:94:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.221s]    94 |   node->declare_parameter<[01;31m[Kbool[m[K>(「inverted」, b_optvalue);
+[5.222s]       |                           [01;31m[K^~~~[m[K
+[5.243s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:95:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「inverted」[m[K’ was not declared in this scope
+[5.244s]    95 |   node->get_parameter([01;31m[K「inverted」[m[K, b_optvalue);
+[5.245s]       |                       [01;31m[K^~~~~~~~~~~~[m[K
+[5.268s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:96:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropInverted[m[K’ was not declared in this scope
+[5.269s]    96 |   laser.setlidaropt([01;31m[KLidarPropInverted[m[K, &b_optvalue, sizeof(bool));
+[5.270s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.270s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:99:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.271s]    99 |   node->declare_parameter<[01;31m[Kbool[m[K>(「auto_reconnect」, b_optvalue);
+[5.272s]       |                           [01;31m[K^~~~[m[K
+[5.295s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:100:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「auto_reconnect」[m[K’ was not declared in this scope
+[5.296s]   100 |   node->get_parameter([01;31m[K「auto_reconnect」[m[K, b_optvalue);
+[5.296s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.322s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:101:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropAutoReconnect[m[K’ was not declared in this scope
+[5.323s]   101 |   laser.setlidaropt([01;31m[KLidarPropAutoReconnect[m[K, &b_optvalue, sizeof(bool));
+[5.324s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.325s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:104:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.325s]   104 |   node->declare_parameter<[01;31m[Kbool[m[K>(「isSingleChannel」, b_optvalue);
+[5.326s]       |                           [01;31m[K^~~~[m[K
+[5.349s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:105:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「isSingleChannel」[m[K’ was not declared in this scope
+[5.350s]   105 |   node->get_parameter([01;31m[K「isSingleChannel」[m[K, b_optvalue);
+[5.350s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.377s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:106:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropSingleChannel[m[K’ was not declared in this scope
+[5.378s]   106 |   laser.setlidaropt([01;31m[KLidarPropSingleChannel[m[K, &b_optvalue, sizeof(bool));
+[5.378s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.379s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:109:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.380s]   109 |   node->declare_parameter<[01;31m[Kbool[m[K>(「intensity」, b_optvalue);
+[5.380s]       |                           [01;31m[K^~~~[m[K
+[5.401s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:110:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「intensity」[m[K’ was not declared in this scope
+[5.402s]   110 |   node->get_parameter([01;31m[K「intensity」[m[K, b_optvalue);
+[5.403s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.427s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:111:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropIntenstiy[m[K’ was not declared in this scope
+[5.428s]   111 |   laser.setlidaropt([01;31m[KLidarPropIntenstiy[m[K, &b_optvalue, sizeof(bool));
+[5.428s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.429s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:114:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.430s]   114 |   node->declare_parameter<[01;31m[Kbool[m[K>(「support_motor_dtr」, b_optvalue);
+[5.430s]       |                           [01;31m[K^~~~[m[K
+[5.454s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:115:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「support_motor_dtr」[m[K’ was not declared in this scope
+[5.455s]   115 |   node->get_parameter([01;31m[K「support_motor_dtr」[m[K, b_optvalue);
+[5.456s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.483s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:116:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropSupportMotorDtrCtrl[m[K’ was not declared in this scope
+[5.484s]   116 |   laser.setlidaropt([01;31m[KLidarPropSupportMotorDtrCtrl[m[K, &b_optvalue, sizeof(bool));
+[5.485s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.486s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:119:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.486s]   119 |   node->declare_parameter<[01;31m[Kfloat[m[K>(「angle_max」, f_optvalue);
+[5.487s]       |                           [01;31m[K^~~~~[m[K
+[5.508s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:120:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「angle_max」[m[K’ was not declared in this scope
+[5.509s]   120 |   node->get_parameter([01;31m[K「angle_max」[m[K, f_optvalue);
+[5.509s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.533s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:121:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropMaxAngle[m[K’ was not declared in this scope
+[5.534s]   121 |   laser.setlidaropt([01;31m[KLidarPropMaxAngle[m[K, &f_optvalue, sizeof(float));
+[5.535s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.535s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:124:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.536s]   124 |   node->declare_parameter<[01;31m[Kfloat[m[K>(「angle_min」, f_optvalue);
+[5.536s]       |                           [01;31m[K^~~~~[m[K
+[5.557s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:125:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「angle_min」[m[K’ was not declared in this scope
+[5.558s]   125 |   node->get_parameter([01;31m[K「angle_min」[m[K, f_optvalue);
+[5.559s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.582s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:126:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropMinAngle[m[K’ was not declared in this scope
+[5.583s]   126 |   laser.setlidaropt([01;31m[KLidarPropMinAngle[m[K, &f_optvalue, sizeof(float));
+[5.584s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.584s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:129:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.585s]   129 |   node->declare_parameter<[01;31m[Kfloat[m[K>(「range_max」, f_optvalue);
+[5.586s]       |                           [01;31m[K^~~~~[m[K
+[5.606s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:130:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「range_max」[m[K’ was not declared in this scope
+[5.607s]   130 |   node->get_parameter([01;31m[K「range_max」[m[K, f_optvalue);
+[5.608s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.631s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:131:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropMaxRange[m[K’ was not declared in this scope
+[5.632s]   131 |   laser.setlidaropt([01;31m[KLidarPropMaxRange[m[K, &f_optvalue, sizeof(float));
+[5.633s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.633s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:134:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.634s]   134 |   node->declare_parameter<[01;31m[Kfloat[m[K>(「range_min」, f_optvalue);
+[5.635s]       |                           [01;31m[K^~~~~[m[K
+[5.656s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:135:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「range_min」[m[K’ was not declared in this scope
+[5.657s]   135 |   node->get_parameter([01;31m[K「range_min」[m[K, f_optvalue);
+[5.657s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.681s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:136:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropMinRange[m[K’ was not declared in this scope
+[5.682s]   136 |   laser.setlidaropt([01;31m[KLidarPropMinRange[m[K, &f_optvalue, sizeof(float));
+[5.683s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.684s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:139:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.684s]   139 |   node->declare_parameter<[01;31m[Kfloat[m[K>(「frequency」, f_optvalue);
+[5.685s]       |                           [01;31m[K^~~~~[m[K
+[5.707s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:140:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「frequency」[m[K’ was not declared in this scope
+[5.708s]   140 |   node->get_parameter([01;31m[K「frequency」[m[K, f_optvalue);
+[5.709s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.735s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:141:21:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarPropScanFrequency[m[K’ was not declared in this scope
+[5.736s]   141 |   laser.setlidaropt([01;31m[KLidarPropScanFrequency[m[K, &f_optvalue, sizeof(float));
+[5.736s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.737s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:144:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbool[m[K’
+[5.738s]   144 |   node->declare_parameter<[01;31m[Kbool[m[K>(「invalid_range_is_inf」, invalid_range_is_inf);
+[5.739s]       |                           [01;31m[K^~~~[m[K
+[5.757s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:145:23:[m[K [01;31m[Kerror: [m[K‘[01m[K「invalid_range_is_inf」[m[K’ was not declared in this scope; did you mean ‘[01m[Kinvalid_range_is_inf[m[K’?
+[5.758s]   145 |   node->get_parameter([01;31m[K「invalid_range_is_inf」[m[K, invalid_range_is_inf);
+[5.759s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.760s]       |                       [32m[Kinvalid_range_is_inf[m[K
+[5.778s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:151:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope
+[5.779s]   151 |     RCLCPP_ERROR(node->get_logger(), 「%[01;31m[Ks[m[K\n」, laser.DescribeError());
+[5.779s]       |                                         [01;31m[K^[m[K
+[5.800s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+[5.800s]   151 |     [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), 「%s\n」, laser.DescribeError());
+[5.801s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.802s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:154:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ has not been declared
+[5.802s]   154 |   auto laser_pub = node->create_publisher<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>(「scan」, rclcpp::QoS(rclcpp::KeepLast(10)));
+[5.803s]       |                                           [01;31m[K^~~~~~~~~~~[m[K
+[5.820s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:154:72:[m[K [01;31m[Kerror: [m[K‘[01m[K「scan」[m[K’ was not declared in this scope
+[5.821s]   154 |   auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>([01;31m[K「scan」[m[K, rclcpp::QoS(rclcpp::KeepLast(10)));
+[5.821s]       |                                                                        [01;31m[K^~~~~~~~[m[K
+[5.822s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:154:82:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[5.823s]   154 |   auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>(「scan」, [01;31m[Krclcpp[m[K::QoS(rclcpp::KeepLast(10)));
+[5.823s]       |                                                                                  [01;31m[K^~~~~~[m[K
+[5.824s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:154:94:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[5.824s]   154 |   auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>(「scan」, rclcpp::QoS([01;31m[Krclcpp[m[K::KeepLast(10)));
+[5.825s]       |                                                                                              [01;31m[K^~~~~~[m[K
+[5.870s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:157:36:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_request_id_t[m[K’ was not declared in this scope
+[5.871s]   157 |     [&laser](const std::shared_ptr<[01;31m[Krmw_request_id_t[m[K> request_header,
+[5.872s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.873s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:157:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.873s]   157 |     [&laser](const std::shared_ptr<rmw_request_id_t[01;31m[K>[m[K request_header,
+[5.874s]       |                                                    [01;31m[K^[m[K
+[5.900s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:158:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[5.901s]   158 |              const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Empty::Request> req,
+[5.901s]       |                                    [01;31m[K^~~~~~~~[m[K
+[5.902s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:158:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.903s]   158 |              const std::shared_ptr<std_srvs::srv::Empty::Request[01;31m[K>[m[K req,
+[5.903s]       |                                                                 [01;31m[K^[m[K
+[5.934s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:159:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[5.935s]   159 |              std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Empty::Response> response) -> bool
+[5.935s]       |                              [01;31m[K^~~~~~~~[m[K
+[5.936s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:159:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.936s]   159 |              std::shared_ptr<std_srvs::srv::Empty::Response[01;31m[K>[m[K response) -> bool
+[5.937s]       |                                                            [01;31m[K^[m[K
+[5.938s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[5.938s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:161:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser[m[K’ is not captured
+[5.939s]   161 |     return [01;31m[Klaser[m[K.turnOff();
+[5.939s]       |            [01;31m[K^~~~~[m[K
+[5.940s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:157:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[5.940s]   157 |     [&laser[01;36m[K][m[K(const std::shared_ptr<rmw_request_id_t> request_header,
+[5.941s]       |            [01;36m[K^[m[K
+[5.942s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:47:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>laser[m[K’ declared here
+[5.942s]    47 |   [01;36m[Klaser[m[K.setlidaropt(LidarPropSerialPort, str_optvalue.c_str(), str_optvalue.size());
+[5.943s]       |   [01;36m[K^~~~~[m[K
+[5.943s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:157:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.944s]   157 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[5.945s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[5.945s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:158:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.946s]   158 |              [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[5.946s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.947s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:159:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.947s]   159 |              [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[5.948s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.948s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.949s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+[5.949s]   164 |   auto stop_service = node->create_service<[01;31m[Kstd_srvs[m[K::srv::Empty>(「stop_scan」, stop_scan_service);
+[5.950s]       |                                            [01;31m[K^~~~~~~~[m[K
+[5.960s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:66:[m[K [01;31m[Kerror: [m[K‘[01m[K「stop_scan」[m[K’ was not declared in this scope
+[5.960s]   164 |   auto stop_service = node->create_service<std_srvs::srv::Empty>([01;31m[K「stop_scan」[m[K, stop_scan_service);
+[5.961s]       |                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[6.001s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:167:36:[m[K [01;31m[Kerror: [m[K‘[01m[Krmw_request_id_t[m[K’ was not declared in this scope
+[6.002s]   167 |     [&laser](const std::shared_ptr<[01;31m[Krmw_request_id_t[m[K> request_header,
+[6.002s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.003s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:167:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.003s]   167 |     [&laser](const std::shared_ptr<rmw_request_id_t[01;31m[K>[m[K request_header,
+[6.004s]       |                                                    [01;31m[K^[m[K
+[6.034s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:168:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[6.035s]   168 |              const std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Empty::Request> req,
+[6.036s]       |                                    [01;31m[K^~~~~~~~[m[K
+[6.036s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:168:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.037s]   168 |              const std::shared_ptr<std_srvs::srv::Empty::Request[01;31m[K>[m[K req,
+[6.038s]       |                                                                 [01;31m[K^[m[K
+[6.070s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:169:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[6.072s]   169 |              std::shared_ptr<[01;31m[Kstd_srvs[m[K::srv::Empty::Response> response) -> bool
+[6.073s]       |                              [01;31m[K^~~~~~~~[m[K
+[6.073s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:169:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.074s]   169 |              std::shared_ptr<std_srvs::srv::Empty::Response[01;31m[K>[m[K response) -> bool
+[6.075s]       |                                                            [01;31m[K^[m[K
+[6.075s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[6.076s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:171:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser[m[K’ is not captured
+[6.077s]   171 |     return [01;31m[Klaser[m[K.turnOn();
+[6.077s]       |            [01;31m[K^~~~~[m[K
+[6.078s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:167:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[6.079s]   167 |     [&laser[01;36m[K][m[K(const std::shared_ptr<rmw_request_id_t> request_header,
+[6.079s]       |            [01;36m[K^[m[K
+[6.080s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:47:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>laser[m[K’ declared here
+[6.081s]    47 |   [01;36m[Klaser[m[K.setlidaropt(LidarPropSerialPort, str_optvalue.c_str(), str_optvalue.size());
+[6.081s]       |   [01;36m[K^~~~~[m[K
+[6.082s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:167:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.083s]   167 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[6.083s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.084s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:168:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.085s]   168 |              [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[6.085s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.086s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:169:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.087s]   169 |              [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[6.087s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.088s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.089s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ has not been declared
+[6.089s]   174 |   auto start_service = node->create_service<[01;31m[Kstd_srvs[m[K::srv::Empty>(「start_scan」, start_scan_service);
+[6.090s]       |                                             [01;31m[K^~~~~~~~[m[K
+[6.099s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:67:[m[K [01;31m[Kerror: [m[K‘[01m[K「start_scan」[m[K’ was not declared in this scope
+[6.099s]   174 |   auto start_service = node->create_service<std_srvs::srv::Empty>([01;31m[K「start_scan」[m[K, start_scan_service);
+[6.100s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.101s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:176:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[6.102s]   176 |   [01;31m[Krclcpp[m[K::WallRate loop_rate(20);
+[6.102s]       |   [01;31m[K^~~~~~[m[K
+[6.103s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:178:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[6.104s]   178 |   while (ret && [01;31m[Krclcpp[m[K::ok()) {
+[6.104s]       |                 [01;31m[K^~~~~~[m[K
+[6.121s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:179:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScan[m[K’ was not declared in this scope
+[6.122s]   179 |     [01;31m[KLaserScan[m[K scan;
+[6.123s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.138s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:181:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+[6.138s]   181 |     if (laser.doProcessSimple([01;31m[Kscan[m[K)) {
+[6.139s]       |                               [01;31m[K^~~~[m[K
+[6.140s]       |                               [32m[Kscanf[m[K
+[6.160s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:182:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[6.161s]   182 |       auto scan_msg = std::make_shared<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>();
+[6.162s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[6.163s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:182:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.164s]   182 |       auto scan_msg = std::[01;31m[Kmake_shared<sensor_msgs::msg::LaserScan>[m[K();
+[6.165s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.165s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:182:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[6.166s]   182 |       auto scan_msg = [01;31m[Kstd::make_shared<sensor_msgs::msg::LaserScan>()[m[K;
+[6.167s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.168s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[6.169s]                  from [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:20[m[K:
+[6.169s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[6.170s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[6.171s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.173s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.173s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:182:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.174s]   182 |       auto scan_msg = [01;31m[Kstd::make_shared<sensor_msgs::msg::LaserScan>()[m[K;
+[6.175s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.190s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:184:36:[m[K [01;31m[Kerror: [m[K‘[01m[KRCL_NS_TO_S[m[K’ was not declared in this scope
+[6.190s]   184 |       scan_msg->header.stamp.sec = [01;31m[KRCL_NS_TO_S[m[K(scan.stamp);
+[6.191s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[6.213s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:185:53:[m[K [01;31m[Kerror: [m[K‘[01m[KRCL_S_TO_NS[m[K’ was not declared in this scope
+[6.214s]   185 |       scan_msg->header.stamp.nanosec = scan.stamp - [01;31m[KRCL_S_TO_NS[m[K(scan_msg->header.stamp.sec);
+[6.215s]       |                                                     [01;31m[K^~~~~~~~~~~[m[K
+[6.236s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:209:40:[m[K [01;31m[Kerror: [m[K‘[01m[K「Failed[m[K’ was not declared in this scope
+[6.237s]   209 |       RCLCPP_ERROR(node->get_logger(), [01;31m[K「Failed[m[K to get scan」);
+[6.238s]       |                                        [01;31m[K^~~~~~~~[m[K
+[6.259s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:209:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+[6.260s]   209 |       [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), 「Failed to get scan」);
+[6.261s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[6.261s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:211:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[6.262s]   211 |     if(![01;31m[Krclcpp[m[K::ok()) {
+[6.263s]       |         [01;31m[K^~~~~~[m[K
+[6.264s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:214:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[6.265s]   214 |     [01;31m[Krclcpp[m[K::spin_some(node);
+[6.266s]       |     [01;31m[K^~~~~~[m[K
+[6.283s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:215:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[6.284s]   215 |     [01;31m[Kloop_rate[m[K.sleep();
+[6.285s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.285s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:219:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[KINFO[m[K’
+[6.286s]   219 |   RCLCPP_INFO(node->get_logger(), 「[YDLIDAR[01;31m[K [m[K[32m[KINFO[m[K] Now YDLIDAR is stopping .......」);
+[6.287s]       |                                             [01;31m[K^[m[K[32m[K~~~~[m[K
+[6.288s]       |                                             [32m[K][m[K
+[6.289s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:222:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[6.290s]   222 |   [01;31m[Krclcpp[m[K::shutdown();
+[6.291s]       |   [01;31m[K^~~~~~[m[K
+[6.292s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:224:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[6.292s]   224 |   return 0;
+[6.293s]       |            [01;31m[K^[m[K
+[6.294s] [01m[K/home/sunrise/robot/robot_ws/src/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:34:34:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[6.294s]    34 | int main(int argc, char *argv[]) [01;36m[K{[m[K
+[6.295s]       |                                  [01;36m[K^[m[K
+[6.696s] gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76：CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] 错误 1
+[6.697s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/ydlidar_ros2_driver_node.dir/all] 错误 2
+[6.698s] gmake: *** [Makefile:146：all] 错误 2
+[6.709s] Invoked command in '/home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/robot/robot_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/robot/robot_ws/build/ydlidar_ros2_driver -- -j8 -l8
